@@ -1,0 +1,767 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Hyeong-Gon Jo</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+/* For default-background callouts, render the border outline. */
+.callout.block-color-default_background {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+figure,
+aside,
+details {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding-inline: 0.125rem;
+	padding-block: 0.375rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+table {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+/*
+ * Render emoji icons using a ::before pseudo-element to keep the glyph
+ * out of the DOM textContent traversal. This avoids double-rendering icons
+ * in callouts and page titles.
+ * NOTE(slim/html-export-pseudo-icons): I can't tagref this because it will
+ * flag as a duplicate tag after codegen.
+ */
+.icon[data-emoji]::before {
+	content: attr(data-emoji);
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	margin-right: 0.4em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.tab {
+	margin: 1.25em 0;
+	padding-inline: 1rem;
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="263acc12-d8b9-43c1-8d27-5efdcd385689" class="page sans" data-notion-page-icon="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ff4bd81-4c29-401a-b3f7-6a26790e962b/조형곤님_인터넷용.jpg"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg" style="object-position:center 90%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Hyeong-Gon%20Jo/%EC%A1%B0%ED%98%95%EA%B3%A4%EB%8B%98_%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9A%A9.jpg"/></div><h1 class="page-title" dir="auto">Hyeong-Gon Jo</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><p id="397b58e0-799c-807b-887c-ce3f2dfc0661" class="" dir="auto">Ph.D. in Engineering</p><p id="397b58e0-799c-8087-8cf7-cedddcb68432" class="" dir="auto">Building Simulation Lab, Seoul National University</p><p id="397b58e0-799c-8002-b946-dd67ab97e93e" class="" dir="auto">👨‍💻 <a href="http://github.com/Gonie-Gonie">github.com/Gonie-Gonie</a></p><p id="397b58e0-799c-80e5-80ed-eb71aa03989c" class="" dir="auto">📃 <a href="http://orcid.org/0009-0004-8821-275X">orcid.org/0009-0004-8821-275X</a></p><p id="397b58e0-799c-8017-a02b-ec21c9576a2a" class="" dir="auto">📧 <a href="mailto:hyeonggon.jo@snu.ac.kr">hyeonggon.jo@snu.ac.kr</a></p><p id="397b58e0-799c-805c-8ddc-cba7329b4c4a" class="" dir="auto">📱 +82-10-2719-9083</p><p id="397b58e0-799c-8093-aba8-e7929c8917e8" class="" dir="auto">🏬 Building 39, Room 418, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea</p><hr id="397b58e0-799c-8033-a18d-f3ef3d1e7765" dir="auto"/><h1 id="397b58e0-799c-80fd-a485-fd0e0a98ba99" class="" dir="auto">📚 Education</h1><h3 id="397b58e0-799c-8001-994f-c9d034b74ce5" class="" dir="auto">Ph.D.</h3><p id="397b58e0-799c-8095-a0ab-c54dafd44477" class="" dir="auto"><em>2022.03. ~ 2026.02.</em></p><p id="397b58e0-799c-805c-8e07-d11dd55bf9ab" class="" dir="auto">Department of Architecture and Architectural Engineering, Graduate School, Seoul National University</p><p id="397b58e0-799c-8094-b852-f02d01540266" class="" dir="auto">Advisor: Prof. Cheol-Soo Park</p><p id="397b58e0-799c-807f-9d82-d4faf2d30ce7" class="" dir="auto">Dissertation: Simplification Methods for Dynamic Simulation Tools to Support Design-Stage Decision-Making</p><h3 id="397b58e0-799c-80b6-84f4-efeba9fc3954" class="" dir="auto">M.S.</h3><p id="397b58e0-799c-8075-8630-c09839bd21a4" class="" dir="auto"><em>2020.03. ~ 2022.02.</em></p><p id="397b58e0-799c-8013-a1e1-e7117a2f77c4" class="" dir="auto">Department of Architecture and Architectural Engineering, Graduate School, Seoul National University</p><p id="397b58e0-799c-80e4-9295-deb04917e501" class="" dir="auto">Advisor: Prof. Cheol-Soo Park</p><p id="397b58e0-799c-8012-b683-fc131735dfa6" class="" dir="auto">Thesis: Stochastic Daylight Model and Electric Lighting Control 🏆 Awarded</p><p id="397b58e0-799c-80b2-9f54-e017d311c214" class="" dir="auto"><em>available online</em></p><h3 id="397b58e0-799c-80b4-8690-d5aec7bcf026" class="" dir="auto">B.S.</h3><p id="397b58e0-799c-805d-8aeb-e8e606417db1" class="" dir="auto"><em>2016.03. ~ 2020.02.</em></p><p id="397b58e0-799c-8056-84e8-fa4d61287516" class="" dir="auto">Department of Architecture and Architectural Engineering, College of Engineering, Seoul National University</p><hr id="397b58e0-799c-8091-9241-efa2186f9ad7" dir="auto"/><h1 id="397b58e0-799c-80d4-9902-d0491321207e" class="" dir="auto">🔬 Projects</h1><h3 id="397b58e0-799c-802b-b0a5-e71f55694761" class="" dir="auto">Data Collection and Dynamic Simulation Analysis for Performance Evaluation of Green Remodeling</h3><p id="397b58e0-799c-800c-805c-d89f97c27940" class="" dir="auto"><em>2025.06. ~ 2025.10.</em>, Korea Real Estate Board</p><ul id="397b58e0-799c-8069-8140-fd9de26d16ce" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Performed dynamic simulation by incorporating field survey results of green remodeling projects, including actual operation profiles</li></ul><ul id="397b58e0-799c-805a-964c-f89fc0c7ef90" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Quantified distortions in the analysis of green remodeling effects caused by changes in operational characteristics</li></ul><p id="397b58e0-799c-8014-8eb1-e53d4e1fbef3" class="" dir="auto">!Project workflow</p><p id="397b58e0-799c-80d8-b7da-f9af954f52a3" class="" dir="auto">Project workflow</p><p id="397b58e0-799c-805f-aa48-e8bc77c1919f" class="" dir="auto">!Example analysis results</p><p id="397b58e0-799c-803c-8ee6-d7d1d8a14bfb" class="" dir="auto">Example analysis results</p><h3 id="397b58e0-799c-80df-b4df-c061b3753971" class="" dir="auto">Prototype Development of an Energy and Greenhouse Gas Simulator for Existing Buildings</h3><p id="397b58e0-799c-8017-8073-c32e73b86253" class="" dir="auto"><em>2024.07. ~ 2025.12.</em>, Korea Authority of Land &amp; Infrastructure Safety</p><ul id="397b58e0-799c-8008-a4ee-e6845b6257f8" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed Python-based modules for EnergyPlus use, including modeling, modification, and simulation</li></ul><ul id="397b58e0-799c-803f-a77c-cdc7d85067e0" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed an EnergyPlus-based dynamic green remodeling evaluation module</li></ul><ul id="397b58e0-799c-8046-b5b3-efdeb7ea6d66" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Supported green remodeling project analysis</li></ul><p id="397b58e0-799c-80eb-bd96-f9d4ca4c21bf" class="" dir="auto">!Project workflow</p><p id="397b58e0-799c-80d8-a5e0-c8a9e73d5673" class="" dir="auto">Project workflow</p><p id="397b58e0-799c-8046-8b7d-dc7c60722c21" class="" dir="auto">!Simulator engine structure</p><p id="397b58e0-799c-8008-a831-eda05d664607" class="" dir="auto">Simulator engine structure</p><h3 id="397b58e0-799c-8015-9c1b-d515b7db6d02" class="" dir="auto">Development of Greenhouse Gas Reduction Factors and Emissions Evaluation Methods for Green Remodeling in the Building Sector</h3><p id="397b58e0-799c-80a4-ba8e-c45a6a918123" class="" dir="auto"><em>2022.12. ~ 2023.06.</em>, Korea Authority of Land &amp; Infrastructure Safety</p><p id="397b58e0-799c-80cf-8241-f03ddda0b826" class="" dir="auto"><em>2024.03. ~ 2024.12.</em>, Korea Authority of Land &amp; Infrastructure Safety — Enhancement phase</p><ul id="397b58e0-799c-803c-8240-caa9acb6239d" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed EnergyPlus-based greenhouse gas evaluation models for aging buildings</li></ul><ul id="397b58e0-799c-80c9-b222-c96f2e0e41de" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Estimated long-term greenhouse gas emission trends resulting from the remodeling of aging buildings</li></ul><p id="397b58e0-799c-808b-96bc-c2c4487c059e" class="" dir="auto">!Calculation and application of reduction factors based on archetype models</p><p id="397b58e0-799c-800a-a29d-f335b56c1093" class="" dir="auto">Calculation and application of reduction factors based on archetype models</p><p id="397b58e0-799c-806a-8516-cf46a8df716e" class="" dir="auto">!Development of a greenhouse gas reduction factor database through 13.3 billion simulations</p><p id="397b58e0-799c-8065-a81c-dd4409d21c87" class="" dir="auto">Development of a greenhouse gas reduction factor database through 13.3 billion simulations</p><p id="397b58e0-799c-80ed-8dce-f7e447a8750b" class="" dir="auto">!Deliverable: Excel-based reduction factor database and query/analysis tool</p><p id="397b58e0-799c-8075-bbdd-f1f74b1d466b" class="" dir="auto">Deliverable: Excel-based reduction factor database and query/analysis tool</p><h3 id="397b58e0-799c-80f5-9349-f2094c8c40c8" class="" dir="auto">Development of a UT System Optimization Simulator / Optimization Technology for DS FAB UT Systems / Integrated Energy Optimization Simulator for DS FAB UT Systems</h3><p id="397b58e0-799c-8004-b895-f02fc8dd986f" class="" dir="auto"><em>2022.05. ~ 2022.12.</em>, Samsung C&amp;T</p><p id="397b58e0-799c-804e-beea-c9da9eb21f7e" class="" dir="auto"><em>2023.05. ~ 2024.01.</em>, Samsung C&amp;T</p><p id="397b58e0-799c-802c-a5f2-e2944804fcf5" class="" dir="auto"><em>2024.05. ~ 2025.03.</em>, Samsung C&amp;T</p><ul id="397b58e0-799c-80dc-9eb4-f7106636cc29" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed physics-based and data-driven models for air handling units and heat recovery systems</li></ul><ul id="397b58e0-799c-805c-9508-c47f710eafb1" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Estimated unmeasured data and uncertain variables</li></ul><ul id="397b58e0-799c-8050-8f38-e616f84b27b8" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed optimal operation strategies for air handling units and heat recovery systems linked with heat source systems</li></ul><ul id="397b58e0-799c-80a9-9369-c94c93bacaac" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed a node-based equipment system simulator in Python</li></ul><p id="397b58e0-799c-8036-917b-f6f53f9234e4" class="" dir="auto">!Outdoor air handling unit modeling, unknown-variable estimation, and optimization</p><p id="397b58e0-799c-8094-af74-c4bb4bb7e405" class="" dir="auto">Outdoor air handling unit modeling, unknown-variable estimation, and optimization</p><p id="397b58e0-799c-803f-9c1d-c602d55589d6" class="" dir="auto">!Modeling of heat recovery systems involving multiple interconnected systems</p><p id="397b58e0-799c-80fa-80a6-c39fe162ea0a" class="" dir="auto">Modeling of heat recovery systems involving multiple interconnected systems</p><p id="397b58e0-799c-8059-930a-ed12796d2ce0" class="" dir="auto">!Node-based Python simulation module</p><p id="397b58e0-799c-8009-a9f2-f6cbaf5a595d" class="" dir="auto">Node-based Python simulation module</p><h3 id="397b58e0-799c-80cd-870d-fbf64e4d5e12" class="" dir="auto">Establishment of a Performance Evaluation Foundation for the Korean Building Energy Efficiency Rating System</h3><p id="397b58e0-799c-8016-a7ad-fd10e3d448d1" class="" dir="auto"><em>2021.08. ~ 2024.07.</em>, Korea Energy Agency</p><p id="397b58e0-799c-801e-8665-cca930725f33" class="" dir="auto">Hosted by: Korean Institute of Architectural Sustainable Environment and Building Systems</p><ul id="397b58e0-799c-802e-9b3e-e00a654c12e3" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Compared floor-heating modeling frameworks between EnergyPlus and ECO2</li></ul><ul id="397b58e0-799c-809d-b99d-e71e1770f923" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Analyzed ECO2 certification files and software</li></ul><ul id="397b58e0-799c-8014-9cd9-d5bfe9468466" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Simplified floor-heating simulation models and derived application methods for ECO2</li></ul><p id="397b58e0-799c-8022-a1f8-e03b35a6e610" class="" dir="auto">!Untitled</p><h3 id="397b58e0-799c-807f-b6f2-e8d344a4465a" class="" dir="auto">Development of a LIGHT-HVAC Energy Optimization System and Business Model</h3><p id="397b58e0-799c-8018-b5c4-ffb2a9141304" class="" dir="auto"><em>2020.03. ~ 2021.08.<br/>Overall project period: 2019.01. ~ 2021.08.</em>, Ministry of Trade, Industry and Energy<br/>Hosted by: Electronics and Telecommunications Research Institute</p><ul id="397b58e0-799c-8019-8628-c78eef4dd9cf" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed workplane daylight illuminance estimation methods for factory buildings<ul id="397b58e0-799c-8023-8901-eb6605c88976" class="bulleted-list" dir="auto"><li style="list-style-type:circle">Machine learning method based on simulation data</li></ul><ul id="397b58e0-799c-8009-bc5c-c6160ed09e36" class="bulleted-list" dir="auto"><li style="list-style-type:circle">Probabilistic machine learning method based on measured data</li></ul><ul id="397b58e0-799c-8039-be52-fb49c663e102" class="bulleted-list" dir="auto"><li style="list-style-type:circle">Data-driven calibration method for simulation results including unknown variables</li></ul><ul id="397b58e0-799c-80b3-83a4-c4cf94fbde04" class="bulleted-list" dir="auto"><li style="list-style-type:circle">Physics-based multipoint illuminance calculation method</li></ul></li></ul><ul id="397b58e0-799c-80f8-8c13-ff46b20ded57" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Developed MPC-based HVAC control algorithms for factory buildings</li></ul><ul id="397b58e0-799c-8033-a272-fc0b3da20616" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Demonstrated electric lighting control based on daylight illuminance estimation at two sites</li></ul><p id="397b58e0-799c-806d-9b3e-ca25b962e733" class="" dir="auto">Daylight estimation of workplane grid and individual dimming control of 12 electric lights</p><p id="397b58e0-799c-80b4-a3f4-fe9c8ddd9478" class="" dir="auto">Daylight estimation of workplane grid and individual dimming control of 12 electric lights</p><hr id="397b58e0-799c-8003-8a9b-f0afd79ffc11" dir="auto"/><h1 id="397b58e0-799c-80d3-be53-d1e446784f8c" class="" dir="auto">📄 Publications</h1><h2 id="397b58e0-799c-805e-94f7-e0aa27684db8" class="" dir="auto">International Journal Articles (7)</h2><ul id="397b58e0-799c-8093-a09c-d2cff75b0ec1" class="bulleted-list" dir="auto"><li style="list-style-type:disc">First author: 1 article<h3 id="397b58e0-799c-80f6-8f88-ec7ab681f94d" class="" dir="auto">Linear regression based indoor daylight illuminance estimation with simple measurements based on daylight coefficient method</h3><p id="397b58e0-799c-80c2-a4bd-ecd5771ad544" class="" dir="auto"><strong>Jo, H. G.</strong>, Choi, S. H., Park, C. S. (2023)</p><p id="397b58e0-799c-80b9-a31d-c6fe6ac237cc" class="" dir="auto">Journal of Building Performance Simulation 16(5), pp. 574-587.</p><p id="397b58e0-799c-80ab-9589-c9e8eb40017f" class="" dir="auto"><a href="https://www.tandfonline.com/doi/full/10.1080/19401493.2023.2185684">https://www.tandfonline.com/doi/full/10.1080/19401493.2023.2185684</a></p></li></ul><ul id="397b58e0-799c-8090-bb7f-f06e3de70124" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Co-author: 6 articles<h3 id="397b58e0-799c-80ed-83d7-fa25befc8b9a" class="" dir="auto">Implications of geometry simplification in dynamic building energy modeling: Comparative analysis of detailed and simplified geometries</h3><p id="397b58e0-799c-8078-a4fa-ed30a1f3899e" class="" dir="auto">Park, C. H., Lee, S. J., <strong>Jo, H. G.</strong>, Park, C. S. (2026)</p><p id="397b58e0-799c-8063-9f7d-fce68d8cbc7d" class="" dir="auto">Energy and Buildings, 117839.</p><p id="397b58e0-799c-802c-9c26-c4550e9a7b37" class="" dir="auto"><a href="https://www.sciencedirect.com/science/article/pii/S0378778826008996?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S0378778826008996?via%3Dihub</a></p><h3 id="397b58e0-799c-80b3-a901-d65702837938" class="" dir="auto">Causality-driven, interpretable surrogate modeling for DOAS preheating control</h3><p id="397b58e0-799c-8002-987e-c6eeaeb293b1" class="" dir="auto">Mun, J., <strong>Jo, H. G.</strong>, Kim, J. H., Urabe, E., Mun, J., Park, Y., Park, C. S. (2025)</p><p id="397b58e0-799c-8056-abd3-f187c0b1713a" class="" dir="auto">Energy and Buildings, 116625.</p><p id="397b58e0-799c-8045-8eaa-d2c11cfea02f" class="" dir="auto"><a href="https://www.sciencedirect.com/science/article/pii/S0378778825013556?dgcid=raven_sd_aip_email">https://www.sciencedirect.com/science/article/pii/S0378778825013556?dgcid=raven_sd_aip_email</a></p><h3 id="397b58e0-799c-8025-bba0-dfebdc1ca357" class="" dir="auto">Domain-invariant representation learning for generalizable chiller model: a real-world case study</h3><p id="397b58e0-799c-80e0-821f-e9f0aa823725" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Mun, J., Park, C. S. (2025)</p><p id="397b58e0-799c-80a0-b130-de120530b666" class="" dir="auto">Energy and Buildings, 116168.</p><p id="397b58e0-799c-80c7-ab80-c854720d244f" class="" dir="auto"><a href="https://www.sciencedirect.com/science/article/pii/S0378778825008989?dgcid=coauthor">https://www.sciencedirect.com/science/article/pii/S0378778825008989?dgcid=coauthor</a></p><h3 id="397b58e0-799c-8019-89d2-f4d98fbc5f9c" class="" dir="auto">Real-time model predictive control of energy recovery ventilators for a school building</h3><p id="397b58e0-799c-80be-8fff-db8d810ce734" class="" dir="auto">Ra, S. J., <strong>Jo, H. G.</strong>, Park, C. S. (2025)</p><p id="397b58e0-799c-80e4-899d-c52cb2d2acaa" class="" dir="auto">Science and Technology for the Built Environment, Vol. 31, No. 9, pp. 1155-1166.</p><p id="397b58e0-799c-8074-830c-fd83f263eb30" class="" dir="auto"><a href="https://www.tandfonline.com/doi/full/10.1080/23744731.2025.2539048">https://www.tandfonline.com/doi/full/10.1080/23744731.2025.2539048</a></p><h3 id="397b58e0-799c-805c-b333-c89b3e056f47" class="" dir="auto">Accuracy, generalizability, and extrapolation ability of physics-based, data-driven, and hybrid models for real-life cooling towers</h3><p id="397b58e0-799c-80aa-a297-d0dd63e7efe2" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Urabe, E., Mun, J., Shin, Y., Park, Y., Park, C. S. (2025)</p><p id="397b58e0-799c-8061-a3d9-db5bc89c07ce" class="" dir="auto">Building and Environment, 112756.</p><p id="397b58e0-799c-80fe-98db-f27eb887ad6f" class="" dir="auto"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0360132325002380">https://www.sciencedirect.com/science/article/abs/pii/S0360132325002380</a></p><h3 id="397b58e0-799c-80f2-aca0-c6911ea22eae" class="" dir="auto">Toward scalable prediction of indoor thermal dynamics: Neural-network-implemented state-space (NNiSS) model</h3><p id="397b58e0-799c-80a1-923c-f158780a001e" class="" dir="auto">Mun, J., <strong>Jo, H. G.</strong>, Park, C. S. (2025)</p><p id="397b58e0-799c-80e5-b3e7-c40d23d37d39" class="" dir="auto">Energy and Buildings 331, 115359.</p><p id="397b58e0-799c-809c-b2c6-cf04edc33636" class="" dir="auto"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378778825000891">https://www.sciencedirect.com/science/article/abs/pii/S0378778825000891</a></p></li></ul><h2 id="397b58e0-799c-801b-bca0-d997f15192c1" class="" dir="auto">Domestic Journal Articles (2)</h2><ul id="397b58e0-799c-8025-a02a-e05ad26fe8cb" class="bulleted-list" dir="auto"><li style="list-style-type:disc">First author: 1 article<h3 id="397b58e0-799c-8094-b361-c496b8f37e18" class="" dir="auto">Stochastic Daylight Model and Its Application to Model Predictive Control in Large-Space Buildings</h3><p id="397b58e0-799c-80a3-80a8-f6475502e177" class="" dir="auto"><strong>Jo, H. G.</strong>, Kim, Y. S., Park, C. S. (2021)</p><p id="397b58e0-799c-806b-b681-ddafea7c4041" class="" dir="auto">Journal of the Architectural Institute of Korea, Vol. 37, No. 12, pp. 255-264.</p><p id="397b58e0-799c-80aa-aa02-c723547d1e5f" class="" dir="auto"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10819108">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10819108</a></p></li></ul><ul id="397b58e0-799c-808b-a3d0-f04b76997912" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Co-author: 1 article<h3 id="397b58e0-799c-80b1-b7de-ff16a5206e90" class="" dir="auto">Issues in Quasi-Steady-State Building Energy Analysis Tools: Focusing on ECO2, the Korean Building Energy Efficiency Rating Certification Evaluation Program</h3><p id="397b58e0-799c-8080-a5a3-f11c27e0de82" class="" dir="auto">Lee, S. J., <strong>Jo, H. G.</strong>, Yoo, Y. S., Park, C. H., Park, C. S. (2023)</p><p id="397b58e0-799c-80f2-b8cb-ef00e50ca97d" class="" dir="auto">Journal of the Architectural Institute of Korea, Vol. 40, No. 1, pp. 169-176.</p><p id="397b58e0-799c-80c9-b2a4-e6a1fb59f93b" class="" dir="auto"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11698671">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11698671</a></p></li></ul><h2 id="397b58e0-799c-804a-94ee-c215597015fd" class="" dir="auto">International Conference Papers (16)</h2><ul id="397b58e0-799c-8038-8d0b-f92238c74bb8" class="bulleted-list" dir="auto"><li style="list-style-type:disc">First author: 4 papers<h3 id="397b58e0-799c-80a1-8efd-fa5e4cbadc38" class="" dir="auto">Optimal Control Strategies of a Heat Recovery System for a Building</h3><p id="397b58e0-799c-80a3-9050-d6cf7546f11a" class="" dir="auto"><strong>Jo, H. G.</strong>, Kim, Y. S., Kim, J. H., Park, C. S., Urabe, E., Mun, J., Shin, Y., Park, Y. (2024)</p><p id="397b58e0-799c-8023-8608-d6719b96e9b6" class="" dir="auto">Proceedings of SASBE 2024, November 7-9, 2024, Auckland, New Zealand.</p><p id="397b58e0-799c-801b-93d1-d40260c6b7ba" class="" dir="auto"><a href="https://link.springer.com/book/10.1007/978-981-96-4051-5">https://link.springer.com/book/10.1007/978-981-96-4051-5</a></p><h3 id="397b58e0-799c-8099-983f-c8e23a63901f" class="" dir="auto">Real-time indoor daylight illuminance simulation of an existing building using minimal data</h3><p id="397b58e0-799c-8003-b0cb-c5f9fed7ed25" class="" dir="auto"><strong>Jo, H. G.</strong>, Choi, S. H., Park, C. S. (2022)</p><p id="397b58e0-799c-808a-a8a7-f37c9a08e43f" class="" dir="auto">Proceedings of the 2022 Winter Simulation Conference, December 11-14, 2022, Singapore, Singapore.</p><p id="397b58e0-799c-80e6-8172-d5c65e9ea685" class="" dir="auto">Presentation _ Real-Time Indoor Daylight Illuminance Simulation of an Existing Building Using Minimal Data (Jo, H. G.)</p><h3 id="397b58e0-799c-8056-9e29-d44a3ae16c94" class="" dir="auto">Application of daylighting Gaussian process emulator to lighting control of an existing building</h3><p id="397b58e0-799c-8015-b5eb-f5211c41df75" class="" dir="auto"><strong>Jo, H. G.</strong>, Kim, Y. S., Park, C. S. (2021)</p><p id="397b58e0-799c-8018-9b5c-deff79e04272" class="" dir="auto">Proceedings of the 2021 Winter Simulation Conference, December 13-17, 2021, Phoenix, Arizona, USA.</p><p id="397b58e0-799c-807d-9e18-e8f2726adfb3" class="" dir="auto">Presentation _ Application of Daylighting Gaussian Process Emulator to Lighting Control of an Existing Building (Jo, H. G.).pdf</p><h3 id="397b58e0-799c-80f0-b2fc-d529911f57cf" class="" dir="auto">Illuminance prediction using a hybrid simulation model based on a single reference measurement</h3><p id="397b58e0-799c-80b5-b04b-f11b203c3cfb" class="" dir="auto"><strong>Jo, H. G.</strong>, Park, C. S. (2020)</p><p id="397b58e0-799c-80ad-b008-e24f4ec14337" class="" dir="auto">Proceedings of the 2020 Winter Simulation Conference, December 14-18, 2020, Orlando, USA. Virtual Conference.</p><p id="397b58e0-799c-8087-930b-c306ac1ad6a7" class="" dir="auto">Presentation _ Illuminance Prediction Using a Hybrid Simulation Model Based on a Single Reference Measurement (Jo, H. G.)</p></li></ul><ul id="397b58e0-799c-8055-92ee-daeb0a00be95" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Co-author: 12 papers<h3 id="397b58e0-799c-8018-9b21-c813177e1607" class="" dir="auto">Generalizable chiller model via domain-invariant representation learning: a real-life case study</h3><p id="397b58e0-799c-80f1-9f3d-d29c2045cd10" class="" dir="auto">Kim, J. H., <strong>Jo, H. G.</strong>, Mun, J., Park, C. S. (2026)</p><p id="397b58e0-799c-80a6-95a8-f2a72a0fe2e2" class="" dir="auto">Proceedings of the 2026 ASHRAE Winter Conference, January 31-February 4, 2026, Las Vegas, USA.</p><h3 id="397b58e0-799c-80ed-b9f2-cd945b27ef22" class="" dir="auto">Causality-driven, interpretable surrogate modelling for DOAS preheating control</h3><p id="397b58e0-799c-80e3-95de-c4425dcbf194" class="" dir="auto">Mun, J. Y., <strong>Jo, H. G.</strong>, Kim, J. H., Park, C. S., Urabe, E., Mun, J. H., Park, C. S. (2025)</p><p id="397b58e0-799c-8023-8722-cf253aaf54d9" class="" dir="auto">Proceedings of the 14th International Symposium on Heating, Ventilating, and Air-Conditioning (ISHVAC), November 29-December 2, 2025, Tokyo, Japan.</p><h3 id="397b58e0-799c-8053-b435-e4c012fac22b" class="" dir="auto">Causal analysis of energy retrofit for real-life cases using Average Treatment Effect</h3><p id="397b58e0-799c-805b-8283-d5df09d73ebc" class="" dir="auto">Lee, S. J., Park, C. H., <strong>Jo, H. G.</strong>, Park, C. S. (2025)</p><p id="397b58e0-799c-8079-9783-d78738053d3a" class="" dir="auto">Proceedings of the 14th International Symposium on Heating, Ventilating, and Air-Conditioning (ISHVAC), November 29-December 2, 2025, Tokyo, Japan.</p><h3 id="397b58e0-799c-8077-a52e-f7302a38f1c7" class="" dir="auto">Enhancing Scalability of Neural Networks for MPC by Interconnecting Building Dynamics</h3><p id="397b58e0-799c-8020-bb55-fc2d449acdb6" class="" dir="auto">Mun, J. Y., <strong>Jo, H. G.</strong>, Cho, S. K., Park, C. S. (2024)</p><p id="397b58e0-799c-80b6-8921-e766780465dc" class="" dir="auto">Proceedings of the 5th Asia Conference of International Building Performance Simulation Association 2024, December 8-10, 2024, Osaka, Japan.</p><h3 id="397b58e0-799c-8096-b0b0-eec6f4c32f6a" class="" dir="auto">Optimal Control Strategies for Multiple Chillers in a Building</h3><p id="397b58e0-799c-802a-887b-c56b8e30ac92" class="" dir="auto">Kim, Y. S., Kim, J. H., <strong>Jo, H. G.</strong>, Park, C. S., Urabe, E., Mun, J., Shin, Y., Park, Y. (2024)</p><p id="397b58e0-799c-8085-9442-c95dbacf7b7f" class="" dir="auto">Proceedings of SASBE 2024, November 7-9, 2024, Auckland, New Zealand.</p><h3 id="397b58e0-799c-8038-91e2-f898af0d9bea" class="" dir="auto">Model Predictive Control for a Large-Scale Cooling Tower System Using a Transfer Learning Model</h3><p id="397b58e0-799c-800a-bf2b-f457759fa76f" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Park, C. S., Urabe, E., Mun, J., Shin, Y., Park, Y. (2024)</p><p id="397b58e0-799c-80da-9048-d70d8b666785" class="" dir="auto">Proceedings of the 2024 ACEEE Summer Study on Energy Efficiency in Buildings, August 4-9, 2024, Pacific Grove, CA, USA.</p><h3 id="397b58e0-799c-80cd-9548-dd5db01f916b" class="" dir="auto">Optimization technology of chilled water system simulator for an industrial plant FAB</h3><p id="397b58e0-799c-803f-8aea-cec8e69749c4" class="" dir="auto">Urabe, E., Park, Y. S., Gwak, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Kim, J. H., Park, C. S. (2023)</p><p id="397b58e0-799c-80fe-876b-c22cf705e826" class="" dir="auto">Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 3122-3128.</p><p id="397b58e0-799c-80b7-a436-ce0f4d70445f" class="" dir="auto"><em>available online</em></p><h3 id="397b58e0-799c-80d2-b737-d3adda763d53" class="" dir="auto">Integrated optimal control for cooling AHU with two different chillers</h3><p id="397b58e0-799c-802d-90f3-f26961033f62" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Park, C. S., Urabe, E., Park, Y. S., Gwak, J. H. (2023)</p><p id="397b58e0-799c-8057-9859-f8774184ac1b" class="" dir="auto">Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 3427-3434.</p><p id="397b58e0-799c-800a-934f-ea372bc98ccc" class="" dir="auto"><em>available online</em></p><h3 id="397b58e0-799c-80eb-b381-c57916040b4f" class="" dir="auto">Implementation of real-time model predictive control (MPC) of energy recovery ventilators for school buildings</h3><p id="397b58e0-799c-8079-b65e-c0eaef17a173" class="" dir="auto">Ra, S. J., <strong>Jo, H. G.</strong>, Jeong, H., Heo, T. W., Park, C. S. (2023)</p><p id="397b58e0-799c-804e-a3ce-e4d6680c51e8" class="" dir="auto">Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 3773-3780.</p><p id="397b58e0-799c-8034-af5e-dff71ae14c8b" class="" dir="auto"><em>available online</em></p><h3 id="397b58e0-799c-8031-90db-decd36a4d011" class="" dir="auto">Local vs. integrated control of a cooling system in a factory building</h3><p id="397b58e0-799c-80a3-90d4-f59d98aee042" class="" dir="auto">Kim, Y. S., Kim, J. H., <strong>Jo, H. G.</strong>, Park, C. S., Urabe, E., Gwak, J. H., Park, Y. S. (2023)</p><p id="397b58e0-799c-8036-b735-cd62b5d7c809" class="" dir="auto">Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 1327-1334.</p><p id="397b58e0-799c-80bf-b42c-caf24d47e935" class="" dir="auto"><em>available online</em></p><h3 id="397b58e0-799c-80d9-a2cf-f8016295364d" class="" dir="auto">Optimal control of MAU coils in an existing building</h3><p id="397b58e0-799c-800d-bf2a-d75d3338edc1" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Urabe, E., Gwak, J. H., Park, Y. S., Park, C. S. (2022)</p><p id="397b58e0-799c-8097-a4c2-cb6fca349bb0" class="" dir="auto">Proceedings of the 2022 Winter Simulation Conference, December 11-14, 2022, Singapore, Singapore.</p><h3 id="397b58e0-799c-80f3-b0d8-d6692b783489" class="" dir="auto">Real-time implementation of model predictive control for cooling system of a factory building</h3><p id="397b58e0-799c-8009-a559-e64667021c24" class="" dir="auto">Ra, S. J., Kim, J. H., <strong>Jo, H. G.</strong>, Kim, Y. S., Park, C. S. (2022)</p><p id="397b58e0-799c-8094-bdd3-df9784453ff4" class="" dir="auto">Proceedings of the 2022 ASHRAE Annual Conference, June 25-29, 2022, Toronto, Canada.</p></li></ul><h2 id="397b58e0-799c-80e1-be8c-e295b0101f7a" class="" dir="auto">Domestic Conference Papers (38)</h2><ul id="397b58e0-799c-80b6-a4c1-d9d26c2d6130" class="bulleted-list" dir="auto"><li style="list-style-type:disc">First author: 7 papers<h3 id="397b58e0-799c-80e0-93df-f56dbebd92ae" class="" dir="auto">Running EnergyPlus Using Spreadsheet Inputs: Focus on Geometry Information</h3><p id="397b58e0-799c-808a-9565-c4524718bdc0" class="" dir="auto"><strong>Jo, H. G.</strong>, Park, C. H., Lee, S. J., Mun, H. J., Park, C. S. (2025)</p><p id="397b58e0-799c-80c5-b91e-cae6ec4d3958" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 574-575. October 29-31, 2025, Science and Technology Convention Center, Seoul.</p><p id="397b58e0-799c-80ff-8f8d-e31b93045b7f" class="" dir="auto">Presentation _ Running EnergyPlus Using Spreadsheet Inputs: Focus on Geometry Information.pdf</p><h3 id="397b58e0-799c-803e-8ad0-d84c83c96dc5" class="" dir="auto">Running EnergyPlus Using Spreadsheet Inputs: Focus on HVAC Systems</h3><p id="397b58e0-799c-80c3-ba75-eb400839c63f" class="" dir="auto"><strong>Jo, H. G.</strong>, Lee, S. J., Park, C. H., Mun, H. J., Park, C. S. (2024)</p><p id="397b58e0-799c-809f-8297-e719a1d1473a" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 576-577. October 29-31, 2025, Science and Technology Convention Center, Seoul.</p><p id="397b58e0-799c-808e-b17a-f8f5abb32c6a" class="" dir="auto">Presentation _ Running EnergyPlus Using Spreadsheet Inputs: Focus on HVAC Systems.pdf</p><h3 id="397b58e0-799c-8014-8865-c26b8a1015d3" class="" dir="auto">Establishment and Application of a Greenhouse Gas Reduction Factor Database for Policy Decision-Making in Green Remodeling Projects</h3><p id="397b58e0-799c-80ac-a6ee-ceebc51244b0" class="" dir="auto"><strong>Jo, H. G.</strong>, Kwon, S. O., Kim, U. H., Yoo, Y. S., Park, C. S. (2024) 🏆 Awarded</p><p id="397b58e0-799c-8099-8bcb-dd5ed1c803e9" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 501-502. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.</p><p id="397b58e0-799c-80c1-b781-f20a72dd409b" class="" dir="auto"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12002835">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12002835</a></p><p id="397b58e0-799c-80a4-b795-c64b06f74f90" class="" dir="auto">Presentation _ Establishment and Application of a Greenhouse Gas Reduction Factor Database for Policy Decision-Making in Green Remodeling Projects (Jo, H. G.).pdf</p><h3 id="397b58e0-799c-80a6-a81f-d27638a2c1d9" class="" dir="auto">Calibration Method for a Daylight Simulation Model Using Field Measurement Data</h3><p id="397b58e0-799c-80af-9b7f-f7348d79edb7" class="" dir="auto"><strong>Jo, H. G.</strong>, Choi, S. H., Heo, S. Y., Park, C. S. (2022)</p><p id="397b58e0-799c-8010-97dd-e6b957826058" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 119-121. November 25, 2022, Yonsei University, Seoul.</p><p id="397b58e0-799c-80e0-b162-dc2f57224f4d" class="" dir="auto">Presentation _ Calibration Method for a Daylight Simulation Model Using Field Measurement Data (Jo, H. G.)</p><h3 id="397b58e0-799c-80fb-b912-c957457aa233" class="" dir="auto">Indoor Daylight Estimation Model Based on the Daylight Coefficient Concept</h3><p id="397b58e0-799c-80bb-994a-c8b80dbe7b81" class="" dir="auto"><strong>Jo, H. G.</strong>, Choi, S. H., Park, C. S. (2022)</p><p id="397b58e0-799c-8045-87cd-d66586d54f5a" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 1, pp. 399-400. April 28-29, 2022, The-K Hotel, Seoul.</p><p id="397b58e0-799c-8027-9f59-f191d189f2c9" class="" dir="auto"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11071997">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11071997</a></p><p id="397b58e0-799c-8043-a8dc-f0a7b10dcea3" class="" dir="auto">Presentation _ Indoor Daylight Estimation Model Based on the Daylight Coefficient Concept (Jo, H. G.).pdf</p><h3 id="397b58e0-799c-807c-9064-e292cba5a114" class="" dir="auto">Real-Time Electric Lighting Control Considering the Uncertainty of a Daylight Model</h3><p id="397b58e0-799c-8043-9623-d0fcdf1342e7" class="" dir="auto"><strong>Jo, H. G.</strong>, Ra, S. J., Kim, J. H., Park, C. S. (2021) 🏆 Awarded</p><p id="397b58e0-799c-80eb-85f1-f23f1a3a13b5" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 41, No. 2, pp. 332-333. October 27-30, 2021, Yeosu Expo Convention Center, Yeosu, Jeollanam-do.</p><p id="397b58e0-799c-80dc-a863-fda5d09e117d" class="" dir="auto"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11024946">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11024946</a></p><p id="397b58e0-799c-80e3-a7cd-f966de9f96dd" class="" dir="auto">Presentation _ Real-Time Electric Lighting Control Considering the Uncertainty of a Daylight Model (Jo, H. G.).pdf</p><h3 id="397b58e0-799c-8026-a4cc-c1d86f2c1276" class="" dir="auto">Prediction of Illuminance Ratios Between Indoor Points Using Gaussian Processes</h3><p id="397b58e0-799c-809e-b711-c94013450389" class="" dir="auto"><strong>Jo, H. G.</strong>, Shin, H. S., Kim, Y. S., Park, C. S. (2020) 🏆 Awarded</p><p id="397b58e0-799c-80b8-82a6-f826dc2ec253" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 153-154. November 19-21, 2020, Korea National University of Transportation, Chungju.</p><p id="397b58e0-799c-8065-93a3-c68b6ae4a7f5" class="" dir="auto"><a href="https://www.auric.or.kr/User/rdoc/DocRdoc.aspx?returnVal=RD_R&amp;dn=400711#.YkFrsudBxpI">https://www.auric.or.kr/User/rdoc/DocRdoc.aspx?returnVal=RD_R&amp;dn=400711#.YkFrsudBxpI</a></p></li></ul><ul id="397b58e0-799c-80a2-a420-fcfeb12cded9" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Co-author: 31 papers<h3 id="397b58e0-799c-80b3-a38a-f464fc4fdd33" class="" dir="auto">Quantitative Analysis of Green Remodeling Effects Using Dynamic Building Energy Simulation</h3><p id="397b58e0-799c-804b-8669-d52d1d8d03c5" class="" dir="auto">Lee, S. J., <strong>Jo, H. G.</strong>, Mun, H. J., Kim, S. H., Park, J. I., Park, C. S. (2026)</p><p id="397b58e0-799c-80d9-ae8b-e8b29a30d873" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 46, No. 1, pp. 508-509. April 28-30, 2026, aT Center, Seoul.</p><h3 id="397b58e0-799c-8046-acdf-f8091c7f9248" class="" dir="auto">Building Energy Use Analysis According to Weather Data Types and Operational Uncertainty</h3><p id="397b58e0-799c-805a-ac66-ee65aabca80b" class="" dir="auto">Mun, H. J., Lee, S. J., <strong>Jo, H. G.</strong>, Park, C. S. (2025)</p><p id="397b58e0-799c-80e6-8d9a-f6399f1b292f" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.</p><h3 id="397b58e0-799c-80fe-92a8-ccd36f1b7c6f" class="" dir="auto">Frost-Protection Control of an Outdoor Air Handling Unit Using Probabilistic Models</h3><p id="397b58e0-799c-8090-abd8-c8f3af8ff9e0" class="" dir="auto">Jeong, Y. J., <strong>Jo, H. G.</strong>, Mun, J. Y., Park, C. S., Mun, J. H., Park, Y. S. (2025)</p><p id="397b58e0-799c-80e4-986b-e8b5f0e0ba29" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.</p><h3 id="397b58e0-799c-80e6-8461-f4718508fd2b" class="" dir="auto">Uncertainty Propagation Considering the Causal Structure of a Heating Coil Model</h3><p id="397b58e0-799c-8062-aee0-c4649d98995f" class="" dir="auto">Jeong, Y. J., <strong>Jo, H. G.</strong>, Mun, J. Y., Park, C. S., Mun, J. H., Park, Y. S. (2025)</p><p id="397b58e0-799c-8019-9882-c7aa12e61ae6" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.</p><h3 id="397b58e0-799c-802a-9d90-d9d344f4f5c1" class="" dir="auto">Causal Analysis of Green Remodeling Effects: Ex-Post Evaluation of Four Energy Conservation Measures in 210 Public Buildings</h3><p id="397b58e0-799c-8090-bef6-ec057af4b2d6" class="" dir="auto">Lee, S. J., Park, C. H., <strong>Jo, H. G.</strong>, Park, C. S. (2025)</p><p id="397b58e0-799c-80f5-b92f-c5bf14d10957" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.</p><h3 id="397b58e0-799c-8018-827e-fbee637f6cbb" class="" dir="auto">Uncertainty Analysis of Building Energy Use by Green Remodeling Level</h3><p id="397b58e0-799c-804d-a99b-c5c8435ec82c" class="" dir="auto">Mun, H. J., Lee, S. J., <strong>Jo, H. G.</strong>, Park, C. H., Park, C. S. (2025)</p><p id="397b58e0-799c-801d-bed9-ec6ab1182d16" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 524-525. October 29-31, 2025, Science and Technology Convention Center, Seoul.</p><h3 id="397b58e0-799c-809d-8eca-e6dcaa857faf" class="" dir="auto">Implementation of Dynamic Simulation Using Spreadsheets</h3><p id="397b58e0-799c-80c3-aebb-ec9016c5d9f2" class="" dir="auto">Lee, S. J., <strong>Jo, H. G.</strong>, Park, C. H., Mun, H. J., Park, C. S. (2025)</p><p id="397b58e0-799c-8002-9edd-d831d37fd6e0" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 572-573. October 29-31, 2025, Science and Technology Convention Center, Seoul.</p><h3 id="397b58e0-799c-806d-82f5-e1651e71541c" class="" dir="auto">Enhancing the Scalability of Physics-Informed Neural Network Control Models Through Dynamic Interconnection</h3><p id="397b58e0-799c-801f-913c-f26f498d5434" class="" dir="auto">Mun, J. Y., <strong>Jo, H. G.</strong>, Kim, Y. S., Kim, J. H., Mun, J. H., Park, C. S. (2025)</p><p id="397b58e0-799c-803c-9452-ef9ee9ab8e17" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 45, No. 1, pp. 339-340. April 23-25, 2025, Global Engineering Education Center Convention, Seoul.</p><h3 id="397b58e0-799c-8064-af06-c81eb04bd4b9" class="" dir="auto">Development of a Federated Chiller Model Using Domain-Invariant Representation Learning</h3><p id="397b58e0-799c-80f9-842f-d59f854a0501" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Mun, J. Y., Mun, J. H., Park, C. S. (2025) 🏆 Awarded</p><p id="397b58e0-799c-80ae-a4e4-c6f0d63e1c58" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 45, No. 1, pp. 358-359. April 23-25, 2025, Global Engineering Education Center Convention, Seoul.</p><h3 id="397b58e0-799c-80f2-84f1-c0447531a1e6" class="" dir="auto">Chiller Fault Detection Method Based on a Hybrid Model</h3><p id="397b58e0-799c-802b-853c-d28c2ac4fefd" class="" dir="auto">Kim, Y. S., Kim, J. H., <strong>Jo, H. G.</strong>, Mun, J. Y., Park, C. S., Mun, J. H., Park, Y. S. (2024)</p><p id="397b58e0-799c-80c6-a107-c325a23649a0" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 152-153. November 14-16, 2024, Jeju National University, Jeju.</p><h3 id="397b58e0-799c-8015-b70d-c01ab1297586" class="" dir="auto">Optimization of Green Remodeling Component Technologies Using Techno-Economic Evaluation</h3><p id="397b58e0-799c-803c-a416-fb846dda5e0a" class="" dir="auto">Kwon, S. O., <strong>Jo, H. G.</strong>, Lee, S. J., Park, S. H., Park, C. S. (2024)</p><p id="397b58e0-799c-8018-8825-fd2fa4037199" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 140-141. November 14-16, 2024, Jeju National University, Jeju.</p><h3 id="397b58e0-799c-803a-b4d0-d11d74282aa2" class="" dir="auto">Optimal Control of an Outdoor Air Handling Unit System for Freeze Prevention in Winter</h3><p id="397b58e0-799c-8095-8a50-f86793ef1d8a" class="" dir="auto">Mun, J. Y., <strong>Jo, H. G.</strong>, Kim, Y. S., Kim, J. H., Park, C. S., Mun, J. H., Park, Y. S. (2024) 🏆 Awarded</p><p id="397b58e0-799c-8005-b7fd-ca97e4438ee8" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 176-177. November 14-16, 2024, Jeju National University, Jeju.</p><h3 id="397b58e0-799c-8099-829b-d10858eef1e3" class="" dir="auto">Impact Analysis of Geometry Input Simplification for Office Buildings in Seoul Using GIS</h3><p id="397b58e0-799c-80f3-9229-c7dd88f4f7de" class="" dir="auto">Park, C. H., Lee, S. J., <strong>Jo, H. G.</strong>, Park, C. S. (2024)</p><p id="397b58e0-799c-80bd-90f7-c1b348aba20d" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 104-105. November 14-16, 2024, Jeju National University, Jeju.</p><h3 id="397b58e0-799c-8080-998f-c792e83bd86b" class="" dir="auto">Comparison of Simplified and Detailed Geometry Building Energy Models: Analysis of Energy Load Differences Depending on Shading Effect Representation</h3><p id="397b58e0-799c-8068-aa0a-ceda415c02c2" class="" dir="auto">Lee, S. J., Park, C. H., <strong>Jo, H. G.</strong>, Yoo, Y. S., Kim, S. H., Park, C. S. (2024)</p><p id="397b58e0-799c-80c1-a3d2-f4e80e71ba93" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 636-637. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.</p><h3 id="397b58e0-799c-80e2-80a1-d45e436ce9f1" class="" dir="auto">Comparison of Geometry Input Simplification Methods for Dynamic Building Energy Models</h3><p id="397b58e0-799c-80bc-91c0-c6df4579460d" class="" dir="auto">Park, C. H., Lee, S. J., <strong>Jo, H. G.</strong>, Yoo, Y. S., Kim, S. H., Park, C. S. (2024)</p><p id="397b58e0-799c-8006-82f2-c7935e97c7ad" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 634-635. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.</p><h3 id="397b58e0-799c-8098-92d9-dec8c9a33b38" class="" dir="auto">Enhancing the Scalability of Physics-Informed Neural Network Control Models Through Dynamic Interconnection</h3><p id="397b58e0-799c-80c9-96cf-ea4e5394c079" class="" dir="auto">Mun, J. Y., <strong>Jo, H. G.</strong>, Park, C. S. (2024)</p><p id="397b58e0-799c-80a6-abd3-f940a82894ed" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 513-514. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.</p><h3 id="397b58e0-799c-8050-9a3a-e6711bb37fd5" class="" dir="auto">Optimization of Heating Coil Control in an Outdoor Air Handling Unit System</h3><p id="397b58e0-799c-80fe-8d35-fe6c2f6dd8f6" class="" dir="auto">Mun, J. Y., <strong>Jo, H. G.</strong>, Kim, Y. S., Kim, J. H., Park, C. S., Mun, J. H., Park, Y. S. (2024)</p><p id="397b58e0-799c-800d-8f0a-c4e145c5cfc3" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 482-483. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.</p><h3 id="397b58e0-799c-8097-95bc-db8d6d6fbdab" class="" dir="auto">Uncertainty Analysis of Building Energy Reduction for Green Remodeling</h3><p id="397b58e0-799c-80d3-8064-e7ad4a503a6a" class="" dir="auto">Kwon, S. O., <strong>Jo, H. G.</strong>, Yoo, Y. S., Kim, U. H., Park, C. S. (2024)</p><p id="397b58e0-799c-80a8-9e1b-c703c14c5e1f" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 493-494. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.</p><h3 id="397b58e0-799c-807a-b791-cc4fbb3a95b2" class="" dir="auto">Hybrid Modeling of Cooling Towers Using Transfer Learning</h3><p id="397b58e0-799c-80b7-b4b0-c76c12cc15ed" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Park, C. S., Urabe, E., Mun, J. H., Gwak, J. H., Shin, Y. K., Park, Y. S. (2024)</p><p id="397b58e0-799c-8072-ac0b-d5cd99528d2e" class="" dir="auto">Proceedings of the Spring Joint Conference of the Korean Operations Research and Management Science Society, Korean Institute of Industrial Engineers, and Korea Society for Simulation, pp. xx-xx. May 2-4, 2024, Yeosu Expo Convention Center, Yeosu.</p><h3 id="397b58e0-799c-802e-a578-db00d61d122d" class="" dir="auto">Real-Time Model Predictive Control of Energy Recovery Ventilation Systems in Sports Facilities Based on Occupancy Prediction Information</h3><p id="397b58e0-799c-802c-8ebe-f4804d2f9be4" class="" dir="auto">Ra, S. J., <strong>Jo, H. G.</strong>, Jeong, H., Heo, T. W., Park, C. S. (2022)</p><p id="397b58e0-799c-807d-8d9a-e60001f3c04b" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 149-150. November 25, 2022, Yonsei University, Seoul.</p><h3 id="397b58e0-799c-8055-ac21-de3cb28b32d0" class="" dir="auto">Method for Deriving the Net Coefficient of Performance (net-COP) of Chillers Considering Building Operational Characteristics</h3><p id="397b58e0-799c-801b-a727-e480a888a354" class="" dir="auto">Kim, Y. S., Kim, J. H., <strong>Jo, H. G.</strong>, Park, C. S. (2022) 🏆 Awarded</p><p id="397b58e0-799c-80b9-be4f-fc5a86c94b9b" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 2, pp. 387-388. October 26-28, 2022, Phoenix Jeju Seopjikoji, Jeju.</p><h3 id="397b58e0-799c-80b3-a381-fb9c15c283e4" class="" dir="auto">Cooling Optimal Control of an Outdoor Air Conditioning (OAC) System Combining the Dynamic Characteristics of Multiple Heat Source Equipment</h3><p id="397b58e0-799c-80c8-8709-d50ac32e8c87" class="" dir="auto">Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Urabe, E., Gwak, J. H., Park, Y. S., Park, C. S. (2022)</p><p id="397b58e0-799c-80c8-8281-ff6cf9527f38" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 2, pp. 352-353. October 26-28, 2022, Phoenix Jeju Seopjikoji, Jeju.</p><h3 id="397b58e0-799c-80e9-b1e7-fa7dad7db213" class="" dir="auto">Uncertainty Analysis of Daylight Illuminance Simulation Using Typical and Actual Weather Data</h3><p id="397b58e0-799c-8065-9b27-f9921592e01d" class="" dir="auto">Choi, S. H., <strong>Jo, H. G.</strong>, Yoo, Y. S., Park, C. S. (2022)</p><p id="397b58e0-799c-8028-bcbc-d1eec041e38e" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 1, pp. 394-395. April 28-29, 2022, The-K Hotel, Seoul.</p><h3 id="397b58e0-799c-8003-a3cc-d5ba6845b585" class="" dir="auto">Real-Time Cooling Predictive Control of a Building Using a Lumped Simulation Model</h3><p id="397b58e0-799c-80bf-9713-f4af9f6ca6bb" class="" dir="auto">Ra, S. J., Kim, J. H., Kim, Y. S., <strong>Jo, H. G.</strong>, Shin, H. S., Park, C. S. (2021)</p><p id="397b58e0-799c-80f4-a16b-db706e2ae7ea" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 41, No. 2, pp. 323-324. October 27-30, 2021, Yeosu Expo Convention Center, Yeosu, Jeollanam-do.</p><h3 id="397b58e0-799c-805c-ab4c-c7f34b1bdda6" class="" dir="auto">Real-Time Heating Control of a Factory Building Based on Indoor Temperature Prediction</h3><p id="397b58e0-799c-80f0-b913-c4adc71f5f71" class="" dir="auto">Ra, S. J., Shin, H. S., Kim, Y. S., <strong>Jo, H. G.</strong>, Kim, J. H., Park, C. S. (2021) 🏆 Awarded</p><p id="397b58e0-799c-805d-a51a-c81729ec7e7f" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 41, No. 1, pp. 309-310. April 21-23, 2021, International Convention Center Jeju, Seogwipo, Jeju-do.</p><h3 id="397b58e0-799c-806c-b9dc-ed7606942eac" class="" dir="auto">Artificial Neural Network-Based Forecasting Model for Global Horizontal Irradiance</h3><p id="397b58e0-799c-80f6-b593-ce63e676e941" class="" dir="auto">Kim, J. H., <strong>Jo, H. G.</strong>, Kim, Y. S., Shin, H. S., Park, C. S. (2021)</p><p id="397b58e0-799c-80e2-80ab-e8ccddd489e8" class="" dir="auto">Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 41, No. 1, pp. 288-289. April 21-23, 2021, International Convention Center Jeju, Seogwipo, Jeju-do.</p><h3 id="397b58e0-799c-80d3-afa5-fae54094c7a8" class="" dir="auto">Development of a GIS-Based EnergyPlus Parser</h3><p id="397b58e0-799c-80c8-b14c-f4c3e932da26" class="" dir="auto">Lee, D. H., Ko, Y. D., Yoo, Y. S., <strong>Jo, H. G.</strong>, Kim, D. W., Park, C. S. (2020) 🏆 Awarded</p><p id="397b58e0-799c-8069-895b-f9ba6b2b062e" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 81-82. November 19-21, 2020, Korea National University of Transportation, Chungju.</p><h3 id="397b58e0-799c-804e-8d23-f69435c8e3f8" class="" dir="auto">Evaluation of Monthly Energy Use Repeatability in 10,750 Buildings</h3><p id="397b58e0-799c-8089-93e3-fb8ea0d2bec3" class="" dir="auto">Ko, Y. D., Lee, D. H., Yoo, Y. S., <strong>Jo, H. G.</strong>, Kim, D. W., Park, C. S. (2020)</p><p id="397b58e0-799c-80fb-ad63-fb9ca04958d6" class="" dir="auto">Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 145-146. November 19-21, 2020, Korea National University of Transportation, Chungju.</p><h3 id="397b58e0-799c-8097-9e58-f2c8776acf05" class="" dir="auto">Building Energy Pattern Classification Based on Robust Regression and Time-Series Clustering</h3><p id="397b58e0-799c-80ee-a195-e44c5795d5c9" class="" dir="auto">Lee, D. H., Yoo, Y. S., Ko, Y. D., <strong>Jo, H. G.</strong>, Park, C. S. (2020)</p><p id="397b58e0-799c-805b-ad68-d37104fdb927" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 40, No. 2, pp. 392-393. October 26-30, 2020, Yeosu Expo Convention Center, Yeosu. Online presentation.</p><h3 id="397b58e0-799c-8000-87f1-eda4aad9c4e4" class="" dir="auto">Lighting Control Using DDPG Reinforcement Learning</h3><p id="397b58e0-799c-8051-988d-f87c875e4445" class="" dir="auto">Kim, Y. S., <strong>Jo, H. G.</strong>, Shin, H. S., Park, C. S. (2020)</p><p id="397b58e0-799c-8063-8cdb-fe14b012edc4" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 40, No. 2, pp. 382-383. October 26-30, 2020, Yeosu Expo Convention Center, Yeosu. Online presentation.</p><h3 id="397b58e0-799c-80be-a2cb-cab6c7f0209a" class="" dir="auto">Data-Driven Back-Estimation Method for Building Energy Input Variables</h3><p id="397b58e0-799c-80cb-ba11-ef67f78fb260" class="" dir="auto">Ko, Y. D., Lee, D. H., Yoo, Y. S., <strong>Jo, H. G.</strong>, Park, C. S. (2020)</p><p id="397b58e0-799c-80a7-aca8-cb9692ad789d" class="" dir="auto">Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 40, No. 2, pp. 384-385. October 26-30, 2020, Yeosu Expo Convention Center, Yeosu. Online presentation.</p></li></ul><hr id="397b58e0-799c-8053-b8f4-df3c5932e62b" dir="auto"/><h1 id="397b58e0-799c-803d-9a5b-eb5ad008aa0c" class="" dir="auto">🥇 Awards</h1><p id="397b58e0-799c-80e6-9723-d502e4da0a46" class="" dir="auto">※ Among domestic conference awards, only first-author papers are listed.</p><h3 id="397b58e0-799c-8006-a58d-f643510c001e" class="" dir="auto">Best Paper Award at ISHVAC 2025</h3><p id="397b58e0-799c-80ce-865f-dedd1ce2bb5f" class="" dir="auto"><em>2025.12.02.</em></p><p id="397b58e0-799c-8058-a874-d5d9559302d9" class="" dir="auto">Paper title: Causality-driven, interpretable surrogate modelling for DOAS preheating control</p><p id="397b58e0-799c-809a-a707-e68e645b56e7" class="" dir="auto">20251202 ISHVAC Best Paper Award.pdf</p><h3 id="397b58e0-799c-8046-ac8a-f45a8c86af45" class="" dir="auto">Best Presentation Paper Award, Architectural Institute of Korea</h3><p id="397b58e0-799c-8018-8e9d-c4541b53da67" class="" dir="auto"><em>2024.10.25.</em></p><p id="397b58e0-799c-804c-b4b7-c1630d791f64" class="" dir="auto">Paper title: Establishment and Application of a Greenhouse Gas Reduction Factor Database for Policy Decision-Making in Green Remodeling Projects</p><p id="397b58e0-799c-807f-bfc1-cf3407fcf002" class="" dir="auto">20241025 AIK Best Presentation Paper Award.pdf</p><h3 id="397b58e0-799c-80ef-bf68-e4e509c40dfd" class="" dir="auto">Encouragement Award, Master’s Division, 18th Excellent Graduation Thesis Competition of the Architectural Institute of Korea</h3><p id="397b58e0-799c-8004-bba2-dfc802d38872" class="" dir="auto"><em>2022.04.29.</em></p><p id="397b58e0-799c-8051-99a2-f49116c60c24" class="" dir="auto">Thesis title: Stochastic daylight prediction and lighting control</p><p id="397b58e0-799c-803e-a248-e02dfd26ae84" class="" dir="auto">20220429 AIK Excellent Graduation Thesis Competition.pdf</p><h3 id="397b58e0-799c-803e-8748-e2582621551c" class="" dir="auto">Best Presentation Paper Award, Architectural Institute of Korea</h3><p id="397b58e0-799c-802c-93c1-e75edb563470" class="" dir="auto"><em>2021.10.29.</em></p><p id="397b58e0-799c-80f1-9a03-e10223307388" class="" dir="auto">Paper title: Real-Time Electric Lighting Control Considering the Uncertainty of a Daylight Model</p><p id="397b58e0-799c-8053-a562-f00479252ec5" class="" dir="auto">20211029 AIK Best Presentation Paper Award</p><h3 id="397b58e0-799c-80bf-aa1a-fe15b9d1d59b" class="" dir="auto">Best Paper Presentation Award, Korean Institute of Architectural Sustainable Environment and Building Systems</h3><p id="397b58e0-799c-807c-838b-eb33fcdcad86" class="" dir="auto"><em>2020.11.20.</em></p><p id="397b58e0-799c-809b-8493-cc0ae06b0ceb" class="" dir="auto">Paper title: Prediction of Illuminance Ratios Between Indoor Points Using Gaussian Processes</p><p id="397b58e0-799c-80df-a606-e21f6517d187" class="" dir="auto">20201120 KIAEBS Best Paper Presentation Award</p><hr id="397b58e0-799c-8025-8ac4-d7c0abdeef4a" dir="auto"/><h1 id="397b58e0-799c-8013-8e90-ff9561576c7d" class="" dir="auto">👨‍🏫 Teaching Assistant</h1><h3 id="397b58e0-799c-80b0-b4cc-cd422fb9167a" class="" dir="auto">Workshop in “Basic Studio 3”</h3><p id="397b58e0-799c-80d2-92e1-c49465a661cb" class="" dir="auto"><em>2022-2023 Spring (12 hours)</em></p><p id="397b58e0-799c-80d0-84e0-f35ac7fe4524" class="" dir="auto">Light-environment simulation using ClimateStudio and its application to the architectural design process</p><p id="397b58e0-799c-80ea-bf69-e907d3d9eb30" class="" dir="auto">Details: Workshop in “Basic Studio 3”</p><h3 id="397b58e0-799c-8000-a69d-fd86228c1c5f" class="" dir="auto">Technical Session in “Architectural Environment Design”</h3><p id="397b58e0-799c-80ba-9d4b-f75d1dcc9a87" class="" dir="auto"><em>2021-2023 Spring (21 hours)</em></p><p id="397b58e0-799c-80da-915a-d016d4e4c59f" class="" dir="auto">Rhino3D usage and light-environment simulation using ClimateStudio</p><p id="397b58e0-799c-808f-9a24-c6470dcb872e" class="" dir="auto">Details: Technical Session in “Architectural Environment Design”</p><hr id="397b58e0-799c-80e0-9a0e-dc79b29a96a2" dir="auto"/><h1 id="397b58e0-799c-801d-9e26-eb0c2e44446e" class="" dir="auto">🛠️ Skills</h1><h3 id="397b58e0-799c-8024-9dde-e951583e6816" class="" dir="auto">MATLAB 🔍</h3><p id="397b58e0-799c-8063-bcbd-de94d3331466" class="" dir="auto">Data processing, data analysis, and machine learning</p><h3 id="397b58e0-799c-8038-8455-d6fcaad677b9" class="" dir="auto">Python 🔍</h3><p id="397b58e0-799c-80e7-9b65-c904eefda60a" class="" dir="auto">Module development for HVAC systems, refrigeration systems, and related applications</p><h3 id="397b58e0-799c-80ca-a7fa-f6ac3880a59d" class="" dir="auto">Rhino3D &amp; Grasshopper 🔍</h3><p id="397b58e0-799c-808c-b8cc-c0c4a16cca27" class="" dir="auto">Parametric design, integration with building simulation, and animation production</p><p id="397b58e0-799c-801d-a0e0-ee46b239042e" class="" dir="auto">Building thermal and lighting control/simulation</p><h3 id="397b58e0-799c-80e6-a09d-eef26edda941" class="" dir="auto">ClimateStudio 🔍</h3><p id="397b58e0-799c-80b0-8b02-e0411c42fa1d" class="" dir="auto">Building daylighting simulation</p><h3 id="397b58e0-799c-80a8-98d2-e5c10d8630ce" class="" dir="auto">EnergyPlus 🔍</h3><p id="397b58e0-799c-80e1-8c4a-fcf89740daa9" class="" dir="auto">Building energy simulation</p><hr id="397b58e0-799c-80b3-b997-cb05e11fb8bf" dir="auto"/><h1 id="397b58e0-799c-80b7-afb8-fdb5795c2681" class="" dir="auto">💰 Scholarships</h1><h3 id="397b58e0-799c-80e7-b9a7-f152dee9c643" class="" dir="auto">Hanssem dView Scholarship</h3><p id="397b58e0-799c-808a-b223-d1b7e45b4530" class="" dir="auto">Currently Taejae Student Research Scholarship</p><p id="397b58e0-799c-806d-bf1f-ddb13cf02305" class="" dir="auto"><em>2020 ~ 2021, 4 semesters</em></p><p id="397b58e0-799c-800c-802f-e887cdc680bd" class="" dir="auto">Total amount: KRW 13,911,000</p><p id="397b58e0-799c-80c9-921e-f3e89f78bd9a" class="" dir="auto">Selected research topics related to future cities and future housing, conducted six-month research projects, and presented the results</p><ul id="397b58e0-799c-80b3-bec2-d6bb93ce66fd" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Research topic (2020): Automated Building Design for Achieving Target Energy Use Using C-GAN Artificial Intelligence</li></ul><ul id="397b58e0-799c-80f2-abf6-fd9a43ff184e" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Research topic (2021): AI-Based Generative Design Process for Maintaining a Comfortable Indoor Light Environment</li></ul><hr id="397b58e0-799c-80e4-9eb2-c7e181220c38" dir="auto"/><h1 id="397b58e0-799c-809a-99bc-e300e597bcd4" class="" dir="auto">✔ Certifications</h1><h3 id="397b58e0-799c-8036-967c-fa41990b59bd" class="" dir="auto">Building Energy Assessor</h3><p id="397b58e0-799c-80e6-9671-e8c4a02b02d1" class="" dir="auto"><em>Korea Energy Agency, 2023.12.08.</em> Acquired</p><h3 id="397b58e0-799c-806a-96b2-ebd68b65f929" class="" dir="auto">Engineer HVAC and Refrigerating Machinery</h3><p id="397b58e0-799c-808c-bb49-e7b5d74c6d55" class="" dir="auto"><em>Human Resources Development Service of Korea, 2023.06.09.</em> Acquired</p><h3 id="397b58e0-799c-801e-a4e9-daa1c3b92b69" class="" dir="auto">Craftsman Bartender</h3><p id="397b58e0-799c-800a-bad8-d3af9eb10f37" class="" dir="auto"><em>Human Resources Development Service of Korea, 2021.12.24.</em> Acquired</p><h3 id="397b58e0-799c-80be-9598-d49416254557" class="" dir="auto">Secretary Level 1</h3><p id="397b58e0-799c-80df-8e06-fcf5d7c18d5a" class="" dir="auto"><em>Korea Chamber of Commerce and Industry, 2020.05.29.</em> Acquired</p><h3 id="397b58e0-799c-800e-a155-c5f0089d2d68" class="" dir="auto">Computer Specialist in Spreadsheet &amp; Database Level 1</h3><p id="397b58e0-799c-80b7-97ff-fbbaa3f175ab" class="" dir="auto"><em>Korea Chamber of Commerce and Industry, 2020.04.24.</em> Acquired</p><h3 id="397b58e0-799c-80a6-aed2-e990ce59826f" class="" dir="auto">Engineer Architecture</h3><p id="397b58e0-799c-80e7-bef7-d05975c46e69" class="" dir="auto"><em>Human Resources Development Service of Korea, 2019.12.20.</em> Acquired</p><hr id="397b58e0-799c-8051-8fcb-c4c7993fcd37" dir="auto"/><p id="397b58e0-799c-80ad-9c47-d53277c443c4" class="" dir="auto">Back to the top</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
