@@ -1,0 +1,85 @@
+# Hyeong-Gon Jo
+
+**Building energy researcher · scientific software developer**  
+Building Simulation Lab, Seoul National University  
+hyeonggon.jo@snu.ac.kr · https://github.com/Gonie-Gonie · https://orcid.org/0009-0004-8821-275X
+
+## Profile
+
+I study building energy performance, green retrofit evaluation, HVAC control, and simulation methodology. I also develop small, inspectable tools that make engineering research easier to repeat and share.
+
+## Education
+
+### Ph.D. in Architecture and Architectural Engineering — Seoul National University
+*2022.03–2026.02*
+Simplification Methods for Dynamic Simulation Tools to Support Design-Stage Decision-Making
+
+### M.S. in Architecture and Architectural Engineering — Seoul National University
+*2020.03–2022.02*
+Stochastic Daylight Model and Electric Lighting Control
+
+### B.S. in Architecture and Architectural Engineering — Seoul National University
+*2016.03–2020.02*
+
+## Selected research projects
+
+### Performance evaluation of green-remodeled buildings
+*2025.06–2025.10 · Korea Real Estate Board*
+Researcher · simulation and data analysis
+
+Collected operational data and used dynamic simulation to evaluate realized energy savings and performance gaps in completed retrofit projects.
+
+### Prototype energy and carbon simulator for existing buildings
+*2024.07–2025.12 · Korea Authority of Land & Infrastructure Safety*
+Simulation architecture and EnergyPlus workflow
+
+Developed a prototype that converts structured, spreadsheet-oriented inputs into repeatable EnergyPlus models and retrofit scenarios.
+
+### Green-remodeling carbon-reduction factor database
+*2022.12–2024.12 · Korea Authority of Land & Infrastructure Safety*
+EnergyPlus modeling, large-scale simulation, and decision-tool development
+
+Built archetype-based reduction factors and long-term emissions estimates through a large simulation campaign for aging buildings.
+
+### Integrated optimization simulator for industrial FAB utility systems
+*2022.05–2025.03 · Samsung C&T*
+System modeling, estimation, control optimization, and Python simulator
+
+Developed physics-based and data-driven models for air-handling, heat-recovery, and heat-source systems, then connected them in a node-based simulator.
+
+## Selected publications
+
+- Park, C. H., Lee, S. J., Jo, H. G., Park, C. S. (2026). Implications of geometry simplification in dynamic building energy modeling: Comparative analysis of detailed and simplified geometries. Energy and Buildings, 117839.
+- Kim, J. H., Kim, Y. S., Jo, H. G., Urabe, E., Mun, J., Shin, Y., Park, Y., Park, C. S. (2025). Accuracy, generalizability, and extrapolation ability of physics-based, data-driven, and hybrid models for real-life cooling towers. Building and Environment, 112756.
+- Mun, J., Jo, H. G., Kim, J. H., Urabe, E., Mun, J., Park, Y., Park, C. S. (2025). Causality-driven, interpretable surrogate modeling for DOAS preheating control. Energy and Buildings, 116625.
+- Kim, J. H., Kim, Y. S., Jo, H. G., Mun, J., Park, C. S. (2025). Domain-invariant representation learning for generalizable chiller model: a real-world case study. Energy and Buildings, 116168.
+- Ra, S. J., Jo, H. G., Park, C. S. (2025). Real-time model predictive control of energy recovery ventilators for a school building. Science and Technology for the Built Environment, Vol. 31, No. 9, pp. 1155-1166. https://doi.org/10.1080/23744731.2025.2539048
+- Jo, H. G., Park, C. H., Lee, S. J., Mun, H. J., Park, C. S. (2025). Running EnergyPlus Using Spreadsheet Inputs: Focus on Geometry Information. Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 574-575. October 29-31, 2025, Science and Technology Convention Center, Seoul.
+- Mun, J., Jo, H. G., Park, C. S. (2025). Toward scalable prediction of indoor thermal dynamics: Neural-network-implemented state-space (NNiSS) model. Energy and Buildings 331, 115359.
+- Jo, H. G., Kwon, S. O., Kim, U. H., Yoo, Y. S., Park, C. S. (2024). Establishment and Application of a Greenhouse Gas Reduction Factor Database for Policy Decision-Making in Green Remodeling Projects. Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 501-502. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.
+- Jo, H. G., Kim, Y. S., Kim, J. H., Park, C. S., Urabe, E., Mun, J., Shin, Y., Park, Y. (2024). Optimal Control Strategies of a Heat Recovery System for a Building. Proceedings of SASBE 2024, November 7-9, 2024, Auckland, New Zealand. https://doi.org/10.1007/978-981-96-4051-5
+- Jo, H. G., Lee, S. J., Park, C. H., Mun, H. J., Park, C. S. (2024). Running EnergyPlus Using Spreadsheet Inputs: Focus on HVAC Systems. Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 576-577. October 29-31, 2025, Science and Technology Convention Center, Seoul.
+- Lee, S. J., Jo, H. G., Yoo, Y. S., Park, C. H., Park, C. S. (2023). Issues in Quasi-Steady-State Building Energy Analysis Tools: Focusing on ECO2, the Korean Building Energy Efficiency Rating Certification Evaluation Program. Journal of the Architectural Institute of Korea, Vol. 40, No. 1, pp. 169-176.
+- Jo, H. G., Choi, S. H., Park, C. S. (2023). Linear regression based indoor daylight illuminance estimation with simple measurements based on daylight coefficient method. Journal of Building Performance Simulation 16(5), pp. 574-587. https://doi.org/10.1080/19401493.2023.2185684
+- Jo, H. G., Choi, S. H., Heo, S. Y., Park, C. S. (2022). Calibration Method for a Daylight Simulation Model Using Field Measurement Data. Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 119-121. November 25, 2022, Yonsei University, Seoul.
+- Jo, H. G., Choi, S. H., Park, C. S. (2022). Indoor Daylight Estimation Model Based on the Daylight Coefficient Concept. Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 1, pp. 399-400. April 28-29, 2022, The-K Hotel, Seoul.
+- Jo, H. G., Choi, S. H., Park, C. S. (2022). Real-time indoor daylight illuminance simulation of an existing building using minimal data. Proceedings of the 2022 Winter Simulation Conference, December 11-14, 2022, Singapore, Singapore.
+- Jo, H. G., Kim, Y. S., Park, C. S. (2021). Application of daylighting Gaussian process emulator to lighting control of an existing building. Proceedings of the 2021 Winter Simulation Conference, December 13-17, 2021, Phoenix, Arizona, USA.
+- Jo, H. G., Ra, S. J., Kim, J. H., Park, C. S. (2021). Real-Time Electric Lighting Control Considering the Uncertainty of a Daylight Model. Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 41, No. 2, pp. 332-333. October 27-30, 2021, Yeosu Expo Convention Center, Yeosu, Jeollanam-do.
+- Jo, H. G., Kim, Y. S., Park, C. S. (2021). Stochastic Daylight Model and Its Application to Model Predictive Control in Large-Space Buildings. Journal of the Architectural Institute of Korea, Vol. 37, No. 12, pp. 255-264.
+- Jo, H. G., Park, C. S. (2020). Illuminance prediction using a hybrid simulation model based on a single reference measurement. Proceedings of the 2020 Winter Simulation Conference, December 14-18, 2020, Orlando, USA. Virtual Conference.
+- Jo, H. G., Shin, H. S., Kim, Y. S., Park, C. S. (2020). Prediction of Illuminance Ratios Between Indoor Points Using Gaussian Processes. Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 153-154. November 19-21, 2020, Korea National University of Transportation, Chungju.
+
+## Research software
+
+- **EPlusSimple** — A spreadsheet-driven EnergyPlus workflow that validates inputs, builds models, runs simulations, and returns compact result summaries. (https://github.com/snu-bslab/EPlusSimple)
+- **semantic-idf** — A desktop workbench for inspecting, diagnosing, cleaning, comparing, and converting EnergyPlus IDF and epJSON models. (https://github.com/Gonie-Gonie/semantic-idf)
+- **oo-docs** — One structured Python document tree rendered to DOCX, PDF, and HTML with shared data, figures, citations, and layout. (https://github.com/Gonie-Gonie/oo-docs)
+- **eng-lang** — An experimental engineering workflow language that preserves units, schemas, axes, provenance, and review artifacts. (https://github.com/Gonie-Gonie/eng-lang)
+- **rusted-energyplus** — An evidence-driven Rust reimplementation experiment for selected EnergyPlus algorithms and compatibility behavior. (https://github.com/Gonie-Gonie/rusted-energyplus)
+- **hvac-studio** — A component-and-node authoring environment and runtime for interconnected building-system models. (https://github.com/Gonie-Gonie/hvac-studio)
+
+## Selected awards
+
+- **2025-12-02 — Best Paper Award, ISHVAC 2025**. 14th International Symposium on Heating, Ventilating and Air-Conditioning. Causality-driven, interpretable surrogate modelling for DOAS preheating control
+- **2024-10-25 — Best Presentation Paper Award**. Architectural Institute of Korea. Establishment and Application of a Greenhouse Gas Reduction Factor Database for Policy Decision-Making in Green Remodeling Projects

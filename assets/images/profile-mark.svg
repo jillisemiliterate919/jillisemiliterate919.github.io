@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" role="img" aria-labelledby="t d">
+<title id="t">Hyeong-Gon Jo profile placeholder</title><desc id="d">A typographic profile mark that can be replaced with a portrait photograph.</desc>
+<rect width="480" height="560" rx="28" fill="#e7ece4"/>
+<path d="M74 102h332M74 458h332" stroke="#16231d" stroke-width="3"/>
+<text x="74" y="255" font-family="Segoe UI, Arial, sans-serif" font-size="108" font-weight="700" fill="#16231d">HGJ</text>
+<text x="77" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="5" fill="#52675c">RESEARCH · SOFTWARE</text>
+<circle cx="382" cy="391" r="52" fill="#d0dacb" stroke="#16231d" stroke-width="3"/>
+<path d="M356 392l18 18 35-44" fill="none" stroke="#16231d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

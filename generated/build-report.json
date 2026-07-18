@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T08:54:46.405169+00:00",
+  "counts": {
+    "themes": 7,
+    "projects": 6,
+    "software": 8,
+    "publications": 63,
+    "awards": 5,
+    "notes": 4
+  },
+  "publication_categories": {
+    "domestic-conference": 38,
+    "domestic-journal": 2,
+    "international-conference": 16,
+    "international-journal": 7
+  }
+}

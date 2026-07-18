@@ -1,0 +1,8 @@
+﻿id,label_en,label_ko,summary_en,summary_ko,glyph
+building-energy-simulation,Building energy simulation,건물에너지 시뮬레이션,"Dynamic and quasi-steady-state models, geometry abstraction, weather inputs, and reproducible simulation workflows.","동적·준정상 시뮬레이션, 형상 단순화, 기상 입력, 재현 가능한 모델링 워크플로를 다룹니다.",SIM
+green-retrofit,Green retrofit & carbon,그린리모델링·탄소,"Measured and simulated retrofit effects, reduction factors, causal evaluation, and policy-facing decision support.","실측·시뮬레이션 기반 성능평가, 감축계수, 인과평가, 정책 의사결정 지원을 다룹니다.",CO₂
+hvac-control,HVAC modeling & control,HVAC 모델링·제어,"Physics-based, data-driven, and hybrid models for HVAC systems, fault detection, estimation, and optimal control.","HVAC 시스템의 물리·데이터·하이브리드 모델, 고장진단, 상태추정, 최적제어를 다룹니다.",HVAC
+daylighting,Daylighting & lighting control,주광·조명제어,"Sparse-measurement daylight models, uncertainty-aware prediction, and real-time electric-lighting control.","소수 측정 기반 주광 모델, 불확실성을 고려한 예측, 실시간 전기조명 제어를 다룹니다.",LUX
+uncertainty-ml,Uncertainty & machine learning,불확실성·기계학습,"Generalization, causal structure, probabilistic models, surrogate models, and learning under limited field data.","일반화, 인과구조, 확률모델, 대리모델, 제한된 현장 데이터에서의 학습을 다룹니다.",ML
+performance-evaluation,Performance evaluation,성능평가,"Operational variability, performance gaps, rating tools, repeatability, and field-calibrated evidence.","운영 변동성, 성능 격차, 인증도구, 반복성, 현장 보정 근거를 다룹니다.",EVAL
+research-software,Research software,연구 소프트웨어,"Small, inspectable tools that turn engineering methods into repeatable workflows and shared artifacts.",공학 방법론을 반복 가능한 워크플로와 공유 가능한 산출물로 전환하는 소프트웨어를 개발합니다.,CODE

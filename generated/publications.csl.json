@@ -1,0 +1,2347 @@
+[
+  {
+    "id": "2026-international-conference-generalizable-chiller-model-via-domain-invari",
+    "type": "paper-conference",
+    "title": "Generalizable chiller model via domain-invariant representation learning: a real-life case study",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2026 ASHRAE Winter Conference, January 31-February 4, 2026, Las Vegas, USA.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2026-international-journal-implications-of-geometry-simplification-in-dy",
+    "type": "article-journal",
+    "title": "Implications of geometry simplification in dynamic building energy modeling: Comparative analysis of detailed and simplified geometries",
+    "author": [
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Energy and Buildings, 117839.",
+    "keyword": "building-energy-simulation, performance-evaluation",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0378778826008996?via%3Dihub"
+  },
+  {
+    "id": "2026-domestic-conference-quantitative-analysis-of-green-remodeling-eff",
+    "type": "paper-conference",
+    "title": "Quantitative Analysis of Green Remodeling Effects Using Dynamic Building Energy Simulation",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "H. J."
+      },
+      {
+        "family": "Kim",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "J. I."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 46, No. 1, pp. 508-509. April 28-30, 2026, aT Center, Seoul.",
+    "keyword": "green-retrofit, building-energy-simulation, performance-evaluation"
+  },
+  {
+    "id": "2025-international-journal-accuracy-generalizability-and-extrapolation-a",
+    "type": "article-journal",
+    "title": "Accuracy, generalizability, and extrapolation ability of physics-based, data-driven, and hybrid models for real-life cooling towers",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Shin",
+        "given": "Y."
+      },
+      {
+        "family": "Park",
+        "given": "Y."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Building and Environment, 112756.",
+    "keyword": "hvac-control, uncertainty-ml, performance-evaluation",
+    "URL": "https://www.sciencedirect.com/science/article/abs/pii/S0360132325002380"
+  },
+  {
+    "id": "2025-domestic-conference-building-energy-use-analysis-according-to-wea",
+    "type": "paper-conference",
+    "title": "Building Energy Use Analysis According to Weather Data Types and Operational Uncertainty",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "H. J."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.",
+    "keyword": "building-energy-simulation, uncertainty-ml, performance-evaluation"
+  },
+  {
+    "id": "2025-international-conference-causal-analysis-of-energy-retrofit-for-real-l",
+    "type": "paper-conference",
+    "title": "Causal analysis of energy retrofit for real-life cases using Average Treatment Effect",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 14th International Symposium on Heating, Ventilating, and Air-Conditioning (ISHVAC), November 29-December 2, 2025, Tokyo, Japan.",
+    "keyword": "green-retrofit, uncertainty-ml, performance-evaluation"
+  },
+  {
+    "id": "2025-domestic-conference-causal-analysis-of-green-remodeling-effects-e",
+    "type": "paper-conference",
+    "title": "Causal Analysis of Green Remodeling Effects: Ex-Post Evaluation of Four Energy Conservation Measures in 210 Public Buildings",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.",
+    "keyword": "green-retrofit, uncertainty-ml, performance-evaluation"
+  },
+  {
+    "id": "2025-international-journal-causality-driven-interpretable-surrogate-mode",
+    "type": "article-journal",
+    "title": "Causality-driven, interpretable surrogate modeling for DOAS preheating control",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Park",
+        "given": "Y."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Energy and Buildings, 116625.",
+    "keyword": "hvac-control, uncertainty-ml",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0378778825013556?dgcid=raven_sd_aip_email"
+  },
+  {
+    "id": "2025-international-conference-causality-driven-interpretable-surrogate-mode",
+    "type": "paper-conference",
+    "title": "Causality-driven, interpretable surrogate modelling for DOAS preheating control",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 14th International Symposium on Heating, Ventilating, and Air-Conditioning (ISHVAC), November 29-December 2, 2025, Tokyo, Japan.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2025-domestic-conference-development-of-a-federated-chiller-model-usin",
+    "type": "paper-conference",
+    "title": "Development of a Federated Chiller Model Using Domain-Invariant Representation Learning",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 45, No. 1, pp. 358-359. April 23-25, 2025, Global Engineering Education Center Convention, Seoul.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2025-international-journal-domain-invariant-representation-learning-for",
+    "type": "article-journal",
+    "title": "Domain-invariant representation learning for generalizable chiller model: a real-world case study",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Energy and Buildings, 116168.",
+    "keyword": "hvac-control, uncertainty-ml",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0378778825008989?dgcid=coauthor"
+  },
+  {
+    "id": "2025-domestic-conference-enhancing-the-scalability-of-physics-informed",
+    "type": "paper-conference",
+    "title": "Enhancing the Scalability of Physics-Informed Neural Network Control Models Through Dynamic Interconnection",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 45, No. 1, pp. 339-340. April 23-25, 2025, Global Engineering Education Center Convention, Seoul.",
+    "keyword": "uncertainty-ml, hvac-control, research-software"
+  },
+  {
+    "id": "2025-domestic-conference-frost-protection-control-of-an-outdoor-air-ha",
+    "type": "paper-conference",
+    "title": "Frost-Protection Control of an Outdoor Air Handling Unit Using Probabilistic Models",
+    "author": [
+      {
+        "family": "Jeong",
+        "given": "Y. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2025-domestic-conference-implementation-of-dynamic-simulation-using-sp",
+    "type": "paper-conference",
+    "title": "Implementation of Dynamic Simulation Using Spreadsheets",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Mun",
+        "given": "H. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 572-573. October 29-31, 2025, Science and Technology Convention Center, Seoul.",
+    "keyword": "building-energy-simulation, research-software"
+  },
+  {
+    "id": "2025-international-journal-real-time-model-predictive-control-of-energy",
+    "type": "article-journal",
+    "title": "Real-time model predictive control of energy recovery ventilators for a school building",
+    "author": [
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Science and Technology for the Built Environment, Vol. 31, No. 9, pp. 1155-1166.",
+    "keyword": "hvac-control",
+    "DOI": "10.1080/23744731.2025.2539048",
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/23744731.2025.2539048"
+  },
+  {
+    "id": "2025-domestic-conference-running-energyplus-using-spreadsheet-inputs-f",
+    "type": "paper-conference",
+    "title": "Running EnergyPlus Using Spreadsheet Inputs: Focus on Geometry Information",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Mun",
+        "given": "H. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 574-575. October 29-31, 2025, Science and Technology Convention Center, Seoul.",
+    "keyword": "building-energy-simulation, research-software"
+  },
+  {
+    "id": "2025-international-journal-toward-scalable-prediction-of-indoor-thermal",
+    "type": "article-journal",
+    "title": "Toward scalable prediction of indoor thermal dynamics: Neural-network-implemented state-space (NNiSS) model",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Energy and Buildings 331, 115359.",
+    "keyword": "uncertainty-ml",
+    "URL": "https://www.sciencedirect.com/science/article/abs/pii/S0378778825000891"
+  },
+  {
+    "id": "2025-domestic-conference-uncertainty-analysis-of-building-energy-use-b",
+    "type": "paper-conference",
+    "title": "Uncertainty Analysis of Building Energy Use by Green Remodeling Level",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "H. J."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 524-525. October 29-31, 2025, Science and Technology Convention Center, Seoul.",
+    "keyword": "green-retrofit, building-energy-simulation, uncertainty-ml"
+  },
+  {
+    "id": "2025-domestic-conference-uncertainty-propagation-considering-the-causa",
+    "type": "paper-conference",
+    "title": "Uncertainty Propagation Considering the Causal Structure of a Heating Coil Model",
+    "author": [
+      {
+        "family": "Jeong",
+        "given": "Y. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems. November 14, 2025, Chungbuk National University, Cheongju.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2024-domestic-conference-chiller-fault-detection-method-based-on-a-hyb",
+    "type": "paper-conference",
+    "title": "Chiller Fault Detection Method Based on a Hybrid Model",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 152-153. November 14-16, 2024, Jeju National University, Jeju.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2024-domestic-conference-comparison-of-geometry-input-simplification-m",
+    "type": "paper-conference",
+    "title": "Comparison of Geometry Input Simplification Methods for Dynamic Building Energy Models",
+    "author": [
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 634-635. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.",
+    "keyword": "building-energy-simulation, performance-evaluation"
+  },
+  {
+    "id": "2024-domestic-conference-comparison-of-simplified-and-detailed-geometr",
+    "type": "paper-conference",
+    "title": "Comparison of Simplified and Detailed Geometry Building Energy Models: Analysis of Energy Load Differences Depending on Shading Effect Representation",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 636-637. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.",
+    "keyword": "building-energy-simulation, performance-evaluation"
+  },
+  {
+    "id": "2024-international-conference-enhancing-scalability-of-neural-networks-for",
+    "type": "paper-conference",
+    "title": "Enhancing Scalability of Neural Networks for MPC by Interconnecting Building Dynamics",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Cho",
+        "given": "S. K."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 5th Asia Conference of International Building Performance Simulation Association 2024, December 8-10, 2024, Osaka, Japan.",
+    "keyword": "uncertainty-ml, hvac-control, research-software"
+  },
+  {
+    "id": "2024-domestic-conference-enhancing-the-scalability-of-physics-informed",
+    "type": "paper-conference",
+    "title": "Enhancing the Scalability of Physics-Informed Neural Network Control Models Through Dynamic Interconnection",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 513-514. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.",
+    "keyword": "uncertainty-ml, hvac-control, research-software"
+  },
+  {
+    "id": "2024-domestic-conference-establishment-and-application-of-a-greenhouse",
+    "type": "paper-conference",
+    "title": "Establishment and Application of a Greenhouse Gas Reduction Factor Database for Policy Decision-Making in Green Remodeling Projects",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kwon",
+        "given": "S. O."
+      },
+      {
+        "family": "Kim",
+        "given": "U. H."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 501-502. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.",
+    "keyword": "green-retrofit",
+    "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12002835"
+  },
+  {
+    "id": "2024-domestic-conference-hybrid-modeling-of-cooling-towers-using-trans",
+    "type": "paper-conference",
+    "title": "Hybrid Modeling of Cooling Towers Using Transfer Learning",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Gwak",
+        "given": "J. H."
+      },
+      {
+        "family": "Shin",
+        "given": "Y. K."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Joint Conference of the Korean Operations Research and Management Science Society, Korean Institute of Industrial Engineers, and Korea Society for Simulation, pp. xx-xx. May 2-4, 2024, Yeosu Expo Convention Center, Yeosu.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2024-domestic-conference-impact-analysis-of-geometry-input-simplificat",
+    "type": "paper-conference",
+    "title": "Impact Analysis of Geometry Input Simplification for Office Buildings in Seoul Using GIS",
+    "author": [
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 104-105. November 14-16, 2024, Jeju National University, Jeju.",
+    "keyword": "building-energy-simulation, performance-evaluation"
+  },
+  {
+    "id": "2024-international-conference-model-predictive-control-for-a-large-scale-co",
+    "type": "paper-conference",
+    "title": "Model Predictive Control for a Large-Scale Cooling Tower System Using a Transfer Learning Model",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Shin",
+        "given": "Y."
+      },
+      {
+        "family": "Park",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2024 ACEEE Summer Study on Energy Efficiency in Buildings, August 4-9, 2024, Pacific Grove, CA, USA.",
+    "keyword": "hvac-control, uncertainty-ml"
+  },
+  {
+    "id": "2024-domestic-conference-optimal-control-of-an-outdoor-air-handling-un",
+    "type": "paper-conference",
+    "title": "Optimal Control of an Outdoor Air Handling Unit System for Freeze Prevention in Winter",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 176-177. November 14-16, 2024, Jeju National University, Jeju.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2024-international-conference-optimal-control-strategies-for-multiple-chill",
+    "type": "paper-conference",
+    "title": "Optimal Control Strategies for Multiple Chillers in a Building",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Shin",
+        "given": "Y."
+      },
+      {
+        "family": "Park",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of SASBE 2024, November 7-9, 2024, Auckland, New Zealand.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2024-international-conference-optimal-control-strategies-of-a-heat-recovery",
+    "type": "paper-conference",
+    "title": "Optimal Control Strategies of a Heat Recovery System for a Building",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Mun",
+        "given": "J."
+      },
+      {
+        "family": "Shin",
+        "given": "Y."
+      },
+      {
+        "family": "Park",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of SASBE 2024, November 7-9, 2024, Auckland, New Zealand.",
+    "keyword": "hvac-control",
+    "DOI": "10.1007/978-981-96-4051-5",
+    "URL": "https://link.springer.com/book/10.1007/978-981-96-4051-5"
+  },
+  {
+    "id": "2024-domestic-conference-optimization-of-green-remodeling-component-te",
+    "type": "paper-conference",
+    "title": "Optimization of Green Remodeling Component Technologies Using Techno-Economic Evaluation",
+    "author": [
+      {
+        "family": "Kwon",
+        "given": "S. O."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Park",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 140-141. November 14-16, 2024, Jeju National University, Jeju.",
+    "keyword": "green-retrofit, hvac-control, performance-evaluation"
+  },
+  {
+    "id": "2024-domestic-conference-optimization-of-heating-coil-control-in-an-ou",
+    "type": "paper-conference",
+    "title": "Optimization of Heating Coil Control in an Outdoor Air Handling Unit System",
+    "author": [
+      {
+        "family": "Mun",
+        "given": "J. Y."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Mun",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 482-483. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2024-domestic-conference-running-energyplus-using-spreadsheet-inputs-f",
+    "type": "paper-conference",
+    "title": "Running EnergyPlus Using Spreadsheet Inputs: Focus on HVAC Systems",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Mun",
+        "given": "H. J."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 45, No. 2, pp. 576-577. October 29-31, 2025, Science and Technology Convention Center, Seoul.",
+    "keyword": "hvac-control, building-energy-simulation, research-software"
+  },
+  {
+    "id": "2024-domestic-conference-uncertainty-analysis-of-building-energy-reduc",
+    "type": "paper-conference",
+    "title": "Uncertainty Analysis of Building Energy Reduction for Green Remodeling",
+    "author": [
+      {
+        "family": "Kwon",
+        "given": "S. O."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "U. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 44, No. 2, pp. 493-494. October 23-25, 2024, The-K Hotel Gyeongju, Gyeongju, Gyeongsangbuk-do.",
+    "keyword": "green-retrofit, building-energy-simulation, uncertainty-ml"
+  },
+  {
+    "id": "2023-international-conference-implementation-of-real-time-model-predictive",
+    "type": "paper-conference",
+    "title": "Implementation of real-time model predictive control (MPC) of energy recovery ventilators for school buildings",
+    "author": [
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Jeong",
+        "given": "H."
+      },
+      {
+        "family": "Heo",
+        "given": "T. W."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 3773-3780.",
+    "keyword": "hvac-control, research-software"
+  },
+  {
+    "id": "2023-international-conference-integrated-optimal-control-for-cooling-ahu-wi",
+    "type": "paper-conference",
+    "title": "Integrated optimal control for cooling AHU with two different chillers",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      },
+      {
+        "family": "Gwak",
+        "given": "J. H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 3427-3434.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2023-domestic-journal-issues-in-quasi-steady-state-building-energy",
+    "type": "article-journal",
+    "title": "Issues in Quasi-Steady-State Building Energy Analysis Tools: Focusing on ECO2, the Korean Building Energy Efficiency Rating Certification Evaluation Program",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Journal of the Architectural Institute of Korea, Vol. 40, No. 1, pp. 169-176.",
+    "keyword": "green-retrofit, building-energy-simulation, performance-evaluation",
+    "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11698671"
+  },
+  {
+    "id": "2023-international-journal-linear-regression-based-indoor-daylight-illum",
+    "type": "article-journal",
+    "title": "Linear regression based indoor daylight illuminance estimation with simple measurements based on daylight coefficient method",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Choi",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Journal of Building Performance Simulation 16(5), pp. 574-587.",
+    "keyword": "daylighting",
+    "DOI": "10.1080/19401493.2023.2185684",
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/19401493.2023.2185684"
+  },
+  {
+    "id": "2023-international-conference-local-vs-integrated-control-of-a-cooling-syst",
+    "type": "paper-conference",
+    "title": "Local vs. integrated control of a cooling system in a factory building",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Gwak",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 1327-1334.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2023-international-conference-optimization-technology-of-chilled-water-syst",
+    "type": "paper-conference",
+    "title": "Optimization technology of chilled water system simulator for an industrial plant FAB",
+    "author": [
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      },
+      {
+        "family": "Gwak",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 18th IBPSA Conference, September 4-6, 2023, Shanghai, China, pp. 3122-3128.",
+    "keyword": "hvac-control, research-software"
+  },
+  {
+    "id": "2022-domestic-conference-calibration-method-for-a-daylight-simulation",
+    "type": "paper-conference",
+    "title": "Calibration Method for a Daylight Simulation Model Using Field Measurement Data",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Choi",
+        "given": "S. H."
+      },
+      {
+        "family": "Heo",
+        "given": "S. Y."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 119-121. November 25, 2022, Yonsei University, Seoul.",
+    "keyword": "daylighting, building-energy-simulation"
+  },
+  {
+    "id": "2022-domestic-conference-cooling-optimal-control-of-an-outdoor-air-con",
+    "type": "paper-conference",
+    "title": "Cooling Optimal Control of an Outdoor Air Conditioning (OAC) System Combining the Dynamic Characteristics of Multiple Heat Source Equipment",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Gwak",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 2, pp. 352-353. October 26-28, 2022, Phoenix Jeju Seopjikoji, Jeju.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2022-domestic-conference-indoor-daylight-estimation-model-based-on-the",
+    "type": "paper-conference",
+    "title": "Indoor Daylight Estimation Model Based on the Daylight Coefficient Concept",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Choi",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 1, pp. 399-400. April 28-29, 2022, The-K Hotel, Seoul.",
+    "keyword": "daylighting",
+    "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11071997"
+  },
+  {
+    "id": "2022-domestic-conference-method-for-deriving-the-net-coefficient-of-pe",
+    "type": "paper-conference",
+    "title": "Method for Deriving the Net Coefficient of Performance (net-COP) of Chillers Considering Building Operational Characteristics",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 2, pp. 387-388. October 26-28, 2022, Phoenix Jeju Seopjikoji, Jeju.",
+    "keyword": "hvac-control, performance-evaluation"
+  },
+  {
+    "id": "2022-international-conference-optimal-control-of-mau-coils-in-an-existing-b",
+    "type": "paper-conference",
+    "title": "Optimal control of MAU coils in an existing building",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Urabe",
+        "given": "E."
+      },
+      {
+        "family": "Gwak",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2022 Winter Simulation Conference, December 11-14, 2022, Singapore, Singapore.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2022-international-conference-real-time-implementation-of-model-predictive",
+    "type": "paper-conference",
+    "title": "Real-time implementation of model predictive control for cooling system of a factory building",
+    "author": [
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2022 ASHRAE Annual Conference, June 25-29, 2022, Toronto, Canada.",
+    "keyword": "hvac-control, research-software"
+  },
+  {
+    "id": "2022-international-conference-real-time-indoor-daylight-illuminance-simulat",
+    "type": "paper-conference",
+    "title": "Real-time indoor daylight illuminance simulation of an existing building using minimal data",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Choi",
+        "given": "S. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2022 Winter Simulation Conference, December 11-14, 2022, Singapore, Singapore.",
+    "keyword": "daylighting"
+  },
+  {
+    "id": "2022-domestic-conference-real-time-model-predictive-control-of-energy",
+    "type": "paper-conference",
+    "title": "Real-Time Model Predictive Control of Energy Recovery Ventilation Systems in Sports Facilities Based on Occupancy Prediction Information",
+    "author": [
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Jeong",
+        "given": "H."
+      },
+      {
+        "family": "Heo",
+        "given": "T. W."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 149-150. November 25, 2022, Yonsei University, Seoul.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2022-domestic-conference-uncertainty-analysis-of-daylight-illuminance",
+    "type": "paper-conference",
+    "title": "Uncertainty Analysis of Daylight Illuminance Simulation Using Typical and Actual Weather Data",
+    "author": [
+      {
+        "family": "Choi",
+        "given": "S. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 42, No. 1, pp. 394-395. April 28-29, 2022, The-K Hotel, Seoul.",
+    "keyword": "daylighting, building-energy-simulation, uncertainty-ml"
+  },
+  {
+    "id": "2021-international-conference-application-of-daylighting-gaussian-process-e",
+    "type": "paper-conference",
+    "title": "Application of daylighting Gaussian process emulator to lighting control of an existing building",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2021 Winter Simulation Conference, December 13-17, 2021, Phoenix, Arizona, USA.",
+    "keyword": "daylighting, uncertainty-ml, hvac-control"
+  },
+  {
+    "id": "2021-domestic-conference-artificial-neural-network-based-forecasting-m",
+    "type": "paper-conference",
+    "title": "Artificial Neural Network-Based Forecasting Model for Global Horizontal Irradiance",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Shin",
+        "given": "H. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 41, No. 1, pp. 288-289. April 21-23, 2021, International Convention Center Jeju, Seogwipo, Jeju-do.",
+    "keyword": "daylighting, uncertainty-ml"
+  },
+  {
+    "id": "2021-domestic-conference-real-time-cooling-predictive-control-of-a-bui",
+    "type": "paper-conference",
+    "title": "Real-Time Cooling Predictive Control of a Building Using a Lumped Simulation Model",
+    "author": [
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Shin",
+        "given": "H. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 41, No. 2, pp. 323-324. October 27-30, 2021, Yeosu Expo Convention Center, Yeosu, Jeollanam-do.",
+    "keyword": "hvac-control, building-energy-simulation"
+  },
+  {
+    "id": "2021-domestic-conference-real-time-electric-lighting-control-consideri",
+    "type": "paper-conference",
+    "title": "Real-Time Electric Lighting Control Considering the Uncertainty of a Daylight Model",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 41, No. 2, pp. 332-333. October 27-30, 2021, Yeosu Expo Convention Center, Yeosu, Jeollanam-do.",
+    "keyword": "daylighting, uncertainty-ml, hvac-control",
+    "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11024946"
+  },
+  {
+    "id": "2021-domestic-conference-real-time-heating-control-of-a-factory-buildi",
+    "type": "paper-conference",
+    "title": "Real-Time Heating Control of a Factory Building Based on Indoor Temperature Prediction",
+    "author": [
+      {
+        "family": "Ra",
+        "given": "S. J."
+      },
+      {
+        "family": "Shin",
+        "given": "H. S."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "J. H."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Spring Conference of the Architectural Institute of Korea, Vol. 41, No. 1, pp. 309-310. April 21-23, 2021, International Convention Center Jeju, Seogwipo, Jeju-do.",
+    "keyword": "hvac-control"
+  },
+  {
+    "id": "2021-domestic-journal-stochastic-daylight-model-and-its-application",
+    "type": "article-journal",
+    "title": "Stochastic Daylight Model and Its Application to Model Predictive Control in Large-Space Buildings",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Journal of the Architectural Institute of Korea, Vol. 37, No. 12, pp. 255-264.",
+    "keyword": "daylighting, uncertainty-ml, hvac-control",
+    "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10819108"
+  },
+  {
+    "id": "2020-domestic-conference-building-energy-pattern-classification-based",
+    "type": "paper-conference",
+    "title": "Building Energy Pattern Classification Based on Robust Regression and Time-Series Clustering",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "D. H."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Ko",
+        "given": "Y. D."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 40, No. 2, pp. 392-393. October 26-30, 2020, Yeosu Expo Convention Center, Yeosu. Online presentation.",
+    "keyword": "building-energy-simulation"
+  },
+  {
+    "id": "2020-domestic-conference-data-driven-back-estimation-method-for-buildi",
+    "type": "paper-conference",
+    "title": "Data-Driven Back-Estimation Method for Building Energy Input Variables",
+    "author": [
+      {
+        "family": "Ko",
+        "given": "Y. D."
+      },
+      {
+        "family": "Lee",
+        "given": "D. H."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 40, No. 2, pp. 384-385. October 26-30, 2020, Yeosu Expo Convention Center, Yeosu. Online presentation.",
+    "keyword": "building-energy-simulation, uncertainty-ml"
+  },
+  {
+    "id": "2020-domestic-conference-development-of-a-gis-based-energyplus-parser",
+    "type": "paper-conference",
+    "title": "Development of a GIS-Based EnergyPlus Parser",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "D. H."
+      },
+      {
+        "family": "Ko",
+        "given": "Y. D."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "D. W."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 81-82. November 19-21, 2020, Korea National University of Transportation, Chungju.",
+    "keyword": "building-energy-simulation, research-software"
+  },
+  {
+    "id": "2020-domestic-conference-evaluation-of-monthly-energy-use-repeatabilit",
+    "type": "paper-conference",
+    "title": "Evaluation of Monthly Energy Use Repeatability in 10,750 Buildings",
+    "author": [
+      {
+        "family": "Ko",
+        "given": "Y. D."
+      },
+      {
+        "family": "Lee",
+        "given": "D. H."
+      },
+      {
+        "family": "Yoo",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Kim",
+        "given": "D. W."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 145-146. November 19-21, 2020, Korea National University of Transportation, Chungju.",
+    "keyword": "performance-evaluation"
+  },
+  {
+    "id": "2020-international-conference-illuminance-prediction-using-a-hybrid-simulat",
+    "type": "paper-conference",
+    "title": "Illuminance prediction using a hybrid simulation model based on a single reference measurement",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 2020 Winter Simulation Conference, December 14-18, 2020, Orlando, USA. Virtual Conference.",
+    "keyword": "daylighting, building-energy-simulation"
+  },
+  {
+    "id": "2020-domestic-conference-lighting-control-using-ddpg-reinforcement-lea",
+    "type": "paper-conference",
+    "title": "Lighting Control Using DDPG Reinforcement Learning",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Shin",
+        "given": "H. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Architectural Institute of Korea, Vol. 40, No. 2, pp. 382-383. October 26-30, 2020, Yeosu Expo Convention Center, Yeosu. Online presentation.",
+    "keyword": "daylighting, uncertainty-ml, hvac-control"
+  },
+  {
+    "id": "2020-domestic-conference-prediction-of-illuminance-ratios-between-indo",
+    "type": "paper-conference",
+    "title": "Prediction of Illuminance Ratios Between Indoor Points Using Gaussian Processes",
+    "author": [
+      {
+        "family": "Jo",
+        "given": "H. G."
+      },
+      {
+        "family": "Shin",
+        "given": "H. S."
+      },
+      {
+        "family": "Kim",
+        "given": "Y. S."
+      },
+      {
+        "family": "Park",
+        "given": "C. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the Fall Conference of the Korean Institute of Architectural Sustainable Environment and Building Systems, pp. 153-154. November 19-21, 2020, Korea National University of Transportation, Chungju.",
+    "keyword": "daylighting, uncertainty-ml",
+    "URL": "https://www.auric.or.kr/User/rdoc/DocRdoc.aspx?returnVal=RD_R&dn=400711#.YkFrsudBxpI"
+  }
+]

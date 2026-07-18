@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Database-generated CV for Hyeong-Gon Jo.">
+  <title>Hyeong-Gon Jo · CV</title>
+  <link rel="icon" href="assets/images/profile-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/cv.js"></script>
+</head>
+<body class="cv-page">
+  <header class="cv-header">
+    <div class="container cv-header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">HGJ</span>
+        <span class="brand-copy">
+          <strong data-i18n="back">Back to website</strong>
+          <small data-i18n="generated">Database-generated CV</small>
+        </span>
+      </a>
+      <div class="cv-header-actions">
+        <div class="language-switch" role="group" aria-label="Language">
+          <button type="button" data-lang-switch="en" aria-pressed="true">EN</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang-switch="ko" aria-pressed="false">KR</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cv-toolbar" aria-label="CV controls">
+    <div class="container cv-toolbar-inner">
+      <label class="field">
+        <span data-i18n="profileLabel">CV profile</span>
+        <select id="cv-scope">
+          <option value="concise" data-i18n="scopeConcise">Concise</option>
+          <option value="academic" data-i18n="scopeAcademic">Academic</option>
+          <option value="complete" data-i18n="scopeComplete">Complete archive</option>
+        </select>
+      </label>
+      <div class="cv-toolbar-buttons">
+        <button type="button" class="button button-primary" id="print-cv" data-i18n="printPdf">Print / PDF</button>
+        <button type="button" class="button button-secondary" data-cv-export="md">Markdown</button>
+        <button type="button" class="button button-secondary" data-cv-export="html">HTML</button>
+        <button type="button" class="button button-secondary" data-cv-export="tex">LaTeX</button>
+        <button type="button" class="button button-secondary" data-cv-export="json">JSON</button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <article id="cv-paper" class="cv-paper" aria-live="polite"></article>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
